@@ -385,7 +385,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="src/gui/ui/mainwindow.ui" line="389"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation>银行业务</translation>
     </message>
     <message>
@@ -564,7 +564,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="132"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation>银行业务</translation>
     </message>
     <message>
