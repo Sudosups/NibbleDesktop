@@ -36,7 +36,7 @@
         <file alias="splash">images/splash.png</file>
         <file alias="cryptonote">images/cryptonote.png</file>
         <file alias="clock">images/clock.gif</file>
-        <file>images/conceal.png</file>
+        <file>images/crumbs.png</file>
         <file>images/qr.png</file>
         <file>images/crumbs-small.png</file>
         <file>images/lock.png</file>        
