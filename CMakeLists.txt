@@ -301,7 +301,7 @@ elseif (UNIX)
  Features of the Conceal wallet listed bellow:
  * Classic Bitcoin alike appearance in CryptoNote based cryptocurrency,
    made with QT and open-source.
- * Instant anonymous CCX transfers and transfers notifications
+ * Instant anonymous XRC transfers and transfers notifications
  * Instant untraceable encrypted messages transfers and notifications
  * Safe and secure, full Conceal network node in wallet, fast network
    syncronization.
