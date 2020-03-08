@@ -1,34 +1,25 @@
-![image](https://github.com/ConcealNetwork/conceal-assets/blob/master/splash.png)
 
-# Conceal Desktop (GUI Wallet)
-Latest Release: v6.1.3
 
-Maintained by Conceal Devs.
+# Crumbs Desktop (GUI Wallet)
+Latest Release: v1.0
+
+Maintained by The Nibble Developers.
 
 ## Information
-Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code.
+Crumbs is a based on the Conceal Network project. Crumbs is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency.
+What's a crumb? A nibble is half a byte or 4 bits. A crumb is half a nibble, or 2 bits.
 
-Conceal.Network enables untraceable and anonymous messaging, and a secure way to transfer funds. Using a distributed public ledger, the sender and receiver are kept anonymous, a key concern in a post Snowden world. Hackers cannot trace money or messages when the messages are sent across public networks.
+Crumbs is part of The Nibble Network and is accessible by anyone in the world regardless of his/her geographic location or status. All your XCR transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.
 
-Conceal Cryptocurrency (₡CCX) is based on the Cryptonote protocol and runs on a secure peer-to-peer network technology to operate with no central authority. You control the private keys to your funds.
-
-Conceal is accessible by anyone in the world regardless of their geographic location or status. Our blockchain is resistant to any kind of analysis. All your CCX transactions and messages are anonymous. Conceal avoids many concerns, e.g. technological, environment impact, reputational and security, of Bitcoin, and provides a glimpse of the future.
-
-Conceal is open-source, community driven and truly decentralized.
-
-No one owns Conceal, everyone can take part.
+Crumbs is open-source, community driven and truly decentralized. No one owns it, everyone can take part.
 
 ## Resources
-- Web: [conceal.network](https://conceal.network/)
-- GitHub: [https://github.com/ConcealNetwork](https://github.com/ConcealNetwork)
-- Discord: [https://discord.gg/YbpHVSd](https://discord.gg/YbpHVSd)
-- Twitter: [https://twitter.com/ConcealNetwork](https://twitter.com/ConcealNetwork)
-- Telegram Official (News Feed): [https://t.me/concealnetwork](https://t.me/concealnetwork)
-- Telegram User Group (Chat Group): [https://t.me/concealnetworkusers](https://t.me/concealnetworkusers)
-- Medium: [https://medium.com/@ConcealNetwork](https://medium.com/@ConcealNetwork)
-- Reddit: [https://www.reddit.com/r/ConcealNetwork/](https://www.reddit.com/r/ConcealNetwork/)
-- Bitcoin Talk: [https://bitcointalk.org/index.php?topic=4515873](https://bitcointalk.org/index.php?topic=4515873)
-- Paperwallet: [https://conceal.network/paperwallet](https://conceal.network/paperwallet)
+- Web: https://nibble-nibble.com
+- GitHub: 
+- Discord: 
+- Twitter: 
+- Bitcoin Talk: 
+- Paperwallet: 
 
 ## Compiling Conceal from source
 
@@ -51,11 +42,11 @@ Alternatively, it may be possible to install them using a package manager.
 To acquire the source via git and build the release version, run the following commands:
 
 - `cd ~`
-- `git clone https://github.com/ConcealNetwork/conceal-desktop`
-- `cd conceal-wallet`
-- `git clone https://github.com/ConcealNetwork/conceal-core.git cryptonote`
+- `git clone https://github.com/NibbleClassic/crumbs-desktop`
+- `cd crumbs-wallet`
+- `git clone https://github.com/NibbleClassic/crumbs-core.git cryptonote`
 - `make build-release`
-- `mkdir bin && mv build/release/CONCEAL-GUI bin/`
+- `mkdir bin && mv build/release/CRUMBS-GUI bin/`
 - `make clean`
 
 If the build is successful the binaries will be in the bin folder.
@@ -74,16 +65,16 @@ If the build is successful the binaries will be in the bin folder.
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017' or run "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsMSBuildCmd.bat" from any command prompt.
 - Edit the CMakeLists.txt file and set the path to QT cmake folder. For example: set(CMAKE_PREFIX_PATH "C:\\Qt\\5.11.0\\msvc2017_64\\lib\\cmake\\").
-- `git clone https://github.com/ConcealNetwork/conceal-core`
-- `git clone https://github.com/ConcealNetwork/conceal-wallet`
-- Copy the contents of the conceal-core folder into conceal-wallet\cryptonote
-- `cd conceal-wallet`
+- `git clone https://github.com/NibbleClassic/crumbs-core`
+- `git clone https://github.com/NibbleClassic/crumbs-wallet`
+- Copy the contents of the crumbs-core folder into crumbs-wallet\cryptonote
+- `cd crumbs-wallet`
 - `mkdir build`
 - `cd build`
 - `cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_67_0 ..` (Or your boost installed dir.)
-- `msbuild CONCEAL-GUI.sln /p:Configuration=Release`
+- `msbuild CRUMBS-GUI.sln /p:Configuration=Release`
 
 If the build is successful the binaries will be in the Release folder.
 
 #### Special Thanks
-Special thanks goes out to the developers from Cryptonote, Bytecoin, Monero, Forknote, TurtleCoin, and Masari.
+Special thanks goes out to the developers from Cryptonote, Bytecoin, Monero, Forknote, TurtleCoin, Masari & Conceal Network.
