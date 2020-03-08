@@ -341,7 +341,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/depositsframe.ui" line="495"/>
-        <source>(minimum of 1 CCX)</source>
+        <source>(minimum of 1 XCR)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -437,7 +437,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/depositsframe.ui" line="1240"/>
-        <source> CCX</source>
+        <source> XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -447,7 +447,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/depositsframe.ui" line="1327"/>
-        <source>(minimum of 50,000 CCX)</source>
+        <source>(minimum of 50,000 XCR)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1312,7 +1312,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/overviewframe.ui" line="1866"/>
-        <source>CCX</source>
+        <source>XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1641,7 +1641,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/sendframe.ui" line="718"/>
-        <source>You can send an optional message along with your transfer. There is a 0.000010 CCX fee per character.</source>
+        <source>You can send an optional message along with your transfer. There is a 0.000010 XCR fee per character.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2877,7 +2877,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="gui/ui/welcomeframe.ui" line="378"/>
-        <source>■  If you send your public address to someone then they can send you CCX.</source>
+        <source>■  If you send your public address to someone then they can send you XCR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2992,7 +2992,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="gui/ui/welcomeframe.ui" line="1030"/>
-        <source>seed phrase and access your CCX</source>
+        <source>seed phrase and access your XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
