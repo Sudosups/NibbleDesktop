@@ -3906,7 +3906,7 @@ border-radius: 5px;</string>
          <string notr="true">border: none;
 color: #ccc;
 border-right: 0px;
-font-size: 14px;
+font-size: 11px;
 font-family: Poppins;</string>
         </property>
         <property name="text">
