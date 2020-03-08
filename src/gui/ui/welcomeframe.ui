@@ -69,7 +69,7 @@ border: 0px; background-color: #212529; font-family: Poppins;</string>
        <string notr="true">color: #ddd; background: transparent;</string>
       </property>
       <property name="text">
-       <string>WELCOME TO THE CONCEAL WALLET</string>
+       <string>WELCOME TO THE CRUMBS WALLET</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -107,7 +107,7 @@ border: 0px; background-color: #212529; font-family: Poppins;</string>
 font-size: 15px;</string>
        </property>
        <property name="text">
-        <string>■  Conceal is a decentralized blockchain bank.</string>
+        <string>■  Crumbs is a decentralized reward system.</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_5">
@@ -130,7 +130,7 @@ font-size: 15px;</string>
 font-size: 15px;</string>
        </property>
        <property name="text">
-        <string>■  The Conceal Wallet is a free, open-source interface.</string>
+        <string>■  The Crumbs Wallet is a free, open-source interface.</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_8">
@@ -153,7 +153,7 @@ font-size: 15px;</string>
 font-size: 15px;</string>
        </property>
        <property name="text">
-        <string>■  The wallet allows access to all Conceal services.</string>
+        <string>■  The wallet allows access to all Crumbs services.</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_9">
@@ -240,7 +240,7 @@ font-size: 22px;
 font-family: Poppins;</string>
        </property>
        <property name="text">
-        <string>WELCOME TO THE CONCEAL WALLET</string>
+        <string>WELCOME TO THE CRUMBS WALLET</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -355,7 +355,7 @@ font-size: 14px;</string>
 font-size: 14px;</string>
        </property>
        <property name="text">
-        <string>■  The developers of Conceal have no access to your password, your keys, </string>
+        <string>■  The Nibble Developers have no access to your password, your keys, </string>
        </property>
       </widget>
       <widget class="QLabel" name="label_14">
@@ -378,7 +378,7 @@ font-size: 14px;</string>
 font-size: 20px;</string>
        </property>
        <property name="text">
-        <string>How does the Conceal Wallet work?</string>
+        <string>How does the Crumbs Wallet work?</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
