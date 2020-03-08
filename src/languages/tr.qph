@@ -217,7 +217,7 @@ p, li { white-space: pre-wrap; }
     <target>GERİ</target>
 </phrase>
 <phrase>
-    <source>BANKING</source>
+    <source>REWARDS</source>
     <target>BANKACILIK</target>
 </phrase>
 <phrase>
@@ -595,7 +595,7 @@ Please wait...</source>
     <target>MEVDUATLAR</target>
 </phrase>
 <phrase>
-    <source>BANKING</source>
+    <source>REWARDS</source>
     <target>BANKACILIK</target>
 </phrase>
 <phrase>
@@ -863,7 +863,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source>Banking</source>
+    <source>Rewards</source>
     <target>Bankacilik</target>
 </phrase>
 <phrase>
@@ -963,7 +963,7 @@ p, li { white-space: pre-wrap; }
     <target>GÖNDER</target>
 </phrase>
 <phrase>
-    <source>BANKING</source>
+    <source>REWARDS</source>
     <target>BANKACILIK</target>
 </phrase>
 <phrase>
