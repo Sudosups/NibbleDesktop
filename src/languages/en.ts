@@ -1337,7 +1337,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/overviewframe.ui" line="2081"/>
-        <source>ccx7VYYGA65jUCfVaeiaHeSN5cmZZcLbhMm1FbpLYpnPVuDKKpH3n3hMiosUCs7LiT1WLrGx8nfZkeETox622EGt4ky2GihVZ8</source>
+        <source>XCRD65a9bZJKvBvhaEmKE67yRjZNHvQyNGdYQxX5EGcjUZXoCcgVjTyGY1tkpSUHDH3QUnRZ8rrzXWL28FHXYVTd1AchPBYa7B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
