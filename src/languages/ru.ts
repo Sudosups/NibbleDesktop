@@ -750,7 +750,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="2540"/>
-        <source>CCX/USD</source>
+        <source>XCR/USD</source>
         <translation></translation>
     </message>
     <message>
@@ -1114,7 +1114,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="5701"/>
-        <source>0.001000 CCX</source>
+        <source>0.001000 XCR</source>
         <translation></translation>
     </message>
     <message>
@@ -2453,8 +2453,8 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="335"/>
-        <source>■  If you send your public address to someone then they can send you CCX.</source>
-        <translation>■  Зная ваш адрес, любой пользователь может переводить вам CCX.</translation>
+        <source>■  If you send your public address to someone then they can send you XCR.</source>
+        <translation>■  Зная ваш адрес, любой пользователь может переводить вам XCR.</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
@@ -2568,8 +2568,8 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1002"/>
-        <source>seed phrase and access your CCX</source>
-        <translation>мнемонической фразы и получите доступ к своим CCX</translation>
+        <source>seed phrase and access your XCR</source>
+        <translation>мнемонической фразы и получите доступ к своим XCR</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1028"/>
