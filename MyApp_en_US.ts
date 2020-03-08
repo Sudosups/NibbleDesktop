@@ -766,7 +766,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="2750"/>
-        <source>CCX/USD</source>
+        <source>XCR/USD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1146,7 +1146,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6064"/>
-        <source>0.001000 CCX</source>
+        <source>0.001000 XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1234,7 +1234,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6837"/>
-        <source>0.000000 CCX 0.00 USD</source>
+        <source>0.000000 XCR 0.00 USD</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2287,7 +2287,7 @@ Are you sure?</source>
     <name>WalletGui::RecentTransactionDelegate</name>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="47"/>
-        <source>Received CCX</source>
+        <source>Received XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2297,7 +2297,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="54"/>
-        <source>Send CCX</source>
+        <source>Send XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2525,7 +2525,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="335"/>
-        <source>■  If you send your public address to someone then they can send you CCX.</source>
+        <source>■  If you send your public address to someone then they can send you XCR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2640,7 +2640,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1002"/>
-        <source>seed phrase and access your CCX</source>
+        <source>seed phrase and access your XCR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
