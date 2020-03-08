@@ -975,12 +975,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="4259"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT CONCEAL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code. Conceal.Network enables untraceable and anonymous messaging, and a secure way to transfer funds. Using a distributed public ledger, the sender and receiver are kept anonymous.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT CRUMBS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation></translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="4319"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Conceal is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Conceal is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2018-2019 - Conceal.Network&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation></translation>
     </message>
     <message>
@@ -1144,8 +1144,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="5973"/>
-        <source>CONCEAL.NETWORK</source>
-        <translation>我的CONCEAL钱包</translation>
+        <source>CRUMBS</source>
+        <translation>我的CRUMBS钱包</translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6009"/>
@@ -1254,8 +1254,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/UpdateManager.cpp" line="93"/>
-        <source>Conceal Wallet Update</source>
-        <translation>Conceal 钱包更新</translation>
+        <source>Crumbs Wallet Update</source>
+        <translation>Crumbs 钱包更新</translation>
     </message>
     <message>
         <location filename="src/UpdateManager.cpp" line="93"/>
@@ -2082,7 +2082,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/OverviewFrame.cpp" line="862"/>
-        <source>Failed to lookup Conceal ID</source>
+        <source>Failed to lookup Crumbs ID</source>
         <translation>搜索失败</translation>
     </message>
     <message>
@@ -2412,23 +2412,23 @@ Are you sure?</source>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="72"/>
         <location filename="src/gui/ui/welcomeframe.ui" line="243"/>
-        <source>WELCOME TO THE CONCEAL WALLET</source>
-        <translation>欢迎使用CONCEAL钱包</translation>
+        <source>WELCOME TO THE CRUMBS WALLET</source>
+        <translation>欢迎使用CRUMBS钱包</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="110"/>
-        <source>■  Conceal is a decentralized blockchain bank.</source>
-        <translation>Conceal是一个分散的区块链银行.</translation>
+        <source>■  Crumbs is a decentralized reward system.</source>
+        <translation>Crumbs是一个分散的区块链银行.</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="133"/>
-        <source>■  The Conceal Wallet is a free, open-source interface.</source>
-        <translation>Conceal钱包是一个免费的开源界面</translation>
+        <source>■  The Crumbs Wallet is a free, open-source interface.</source>
+        <translation>Crumbs钱包是一个免费的开源界面</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="156"/>
-        <source>■  The wallet allows access to all Conceal services.</source>
-        <translation>钱包允许访问所有Conceal服务。</translation>
+        <source>■  The wallet allows access to all Crumbs services.</source>
+        <translation>钱包允许访问所有Crumbs服务。</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="179"/>
@@ -2459,13 +2459,13 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
-        <source>■  The developers of Conceal have no access to your password, your keys, </source>
-        <translation>■  Conceal的开发人员无法访问您的密码，密钥，</translation>
+        <source>■  The Nibble Developers have no access to your password, your keys, </source>
+        <translation>■  Crumbs的开发人员无法访问您的密码，密钥，</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="381"/>
-        <source>How does the Conceal Wallet work?</source>
-        <translation>Conceal钱包如何运作？</translation>
+        <source>How does the Crumbs Wallet work?</source>
+        <translation>Crumbs钱包如何运作？</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="447"/>
