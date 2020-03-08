@@ -44,14 +44,14 @@ public:
 
     case TransactionsModel::COLUMN_TYPE: {
       QString txtype = _index.data(TransactionsModel::ROLE_TYPE).toString();
-      QString txtext = tr("Received CCX");
+      QString txtext = tr("Received XCR");
       if (txtype == "0") 
       {
         txtext = tr("New Block");
       } 
       else if (txtype == "2")
       {
-        txtext = tr("Send CCX");
+        txtext = tr("Send XCR");
       }
       else if (txtype == "3")
       {
