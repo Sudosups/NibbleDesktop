@@ -21,7 +21,7 @@ Crumbs is open-source, community driven and truly decentralized. No one owns it,
 - Bitcoin Talk: 
 - Paperwallet: 
 
-## Compiling Conceal from source
+## Compiling Crumbs from source
 
 ### Linux / Ubuntu
 
