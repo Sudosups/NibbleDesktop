@@ -547,23 +547,23 @@ void OverviewFrame::pendingInvestmentBalanceUpdated(quint64 _balance)
 }
 
 /* Price data download complete */
-void OverviewFrame::onPriceFound(const QString &_btcccx, const QString &_usdccx, const QString &_usdbtc, const QString &_usdmarketcap, const QString &_usdvolume, const QString &_eurccx, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume)
+void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr, const QString &_usdbtc, const QString &_usdmarketcap, const QString &_usdvolume, const QString &_eurxcr, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume)
 {
   QString currentCurrency = Settings::instance().getCurrentCurrency();
 
   float total = 0;
   if (currentCurrency == "EUR")
   {
-    ccxeur = _eurccx.toFloat();
-    m_ui->m_ccxusd->setText("€" + _eurccx);
+    xcreur = _eurxcr.toFloat();
+    m_ui->m_xcrusd->setText("€" + _eurxcr);
     m_ui->m_btcusd->setText("€" + _eurbtc);
     m_ui->m_marketCap->setText("€" + _eurmarketcap);
     m_ui->m_volume->setText("€" + _eurvolume);
   }
   else
   {
-    ccxusd = _usdccx.toFloat();
-    m_ui->m_ccxusd->setText("$" + _usdccx);
+    xcrusd = _usdxcr.toFloat();
+    m_ui->m_xcrusd->setText("$" + _usdxcr);
     m_ui->m_btcusd->setText("$" + _usdbtc);
     m_ui->m_marketCap->setText("$" + _usdmarketcap);
     m_ui->m_volume->setText("$" + _usdvolume);
@@ -578,7 +578,7 @@ void OverviewFrame::onExchangeFound(QString &_exchange)
   exchangeName = _exchange;
 }
 
-/* Update the total portfolio in CCX and Fiat on the top left hand corner */
+/* Update the total portfolio in XCR and Fiat on the top left hand corner */
 void OverviewFrame::updatePortfolio()
 {
   QString currentCurrency = Settings::instance().getCurrentCurrency();
@@ -586,13 +586,13 @@ void OverviewFrame::updatePortfolio()
   float total = 0;
   if (currentCurrency == "EUR")
   {
-    total = ccxeur * (float)OverviewFrame::totalBalance;
+    total = xcreur * (float)OverviewFrame::totalBalance;
   }
   else
   {
-    total = ccxusd * (float)OverviewFrame::totalBalance;
+    total = xcrusd * (float)OverviewFrame::totalBalance;
   }
-  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " CCX | " + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
+  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " XCR | " + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
 }
 
 /* Banking menu button clicked */
@@ -607,7 +607,7 @@ void OverviewFrame::bankingClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myConcealWalletTitle->setText("BANKING");
+    m_ui->m_myConcealWalletTitle->setText("REWARDS");
     m_ui->bankingBox->raise();
   }
   else
@@ -626,7 +626,7 @@ void OverviewFrame::transactionHistoryClicked()
 void OverviewFrame::dashboardClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("CONCEAL.NETWORK");
+  m_ui->m_myConcealWalletTitle->setText("CRUMBS");
   m_ui->overviewBox->raise();
   m_ui->m_newTransferButton->show();
   m_ui->m_newMessageButton->show();
@@ -807,9 +807,9 @@ void OverviewFrame::onAddressFound(const QString &_address)
   {
     OverviewFrame::remote_node_fee_address = _address;
     Settings::instance().setCurrentFeeAddress(_address);
-    m_ui->m_sendFee->setText("Fee: 0.011000 CCX");
-    m_ui->m_messageFee->setText("Fee: 0.011000 CCX");
-    m_ui->m_depositFeeLabel->setText("0.011000 CCX");
+    m_ui->m_sendFee->setText("Fee: 0.011000 XCR");
+    m_ui->m_messageFee->setText("Fee: 0.011000 XCR");
+    m_ui->m_depositFeeLabel->setText("0.011000 XCR");
   }
 }
 
@@ -878,14 +878,14 @@ void OverviewFrame::sendFundsClicked()
 
   try
   {
-    /* Is it a Conceal ID? */
+    /* Is it a Crumbs ID? */
     if (CurrencyAdapter::instance().isValidOpenAliasAddress(address))
     {
-      /* Parse the record and set address to the actual CCX address */
+      /* Parse the record and set address to the actual XCR address */
       std::vector<std::string> records;
       if (!Common::fetch_dns_txt(address.toStdString(), records))
       {
-        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Conceal ID"), QtCriticalMsg));
+        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Crumbs ID"), QtCriticalMsg));
       }
       std::string realAddress;
       for (const auto &record : records)
@@ -901,7 +901,7 @@ void OverviewFrame::sendFundsClicked()
 
   catch (std::exception &)
   {
-    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Conceal ID"), QtCriticalMsg));
+    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Crumbs ID"), QtCriticalMsg));
     return;
   }
 
@@ -1126,14 +1126,14 @@ void OverviewFrame::sendMessageClicked()
 
   try
   {
-    /* Is it a Conceal ID? */
+    /* Is it a Crumbs ID? */
     if (CurrencyAdapter::instance().isValidOpenAliasAddress(address))
     {
-      /* Parse the record and set address to the actual CCX address */
+      /* Parse the record and set address to the actual XCR address */
       std::vector<std::string> records;
       if (!Common::fetch_dns_txt(address.toStdString(), records))
       {
-        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Conceal ID"), QtCriticalMsg));
+        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Crumbs ID"), QtCriticalMsg));
       }
       std::string realAddress;
       for (const auto &record : records)
@@ -1149,7 +1149,7 @@ void OverviewFrame::sendMessageClicked()
 
   catch (std::exception &)
   {
-    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Conceal ID"), QtCriticalMsg));
+    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Crumbs ID"), QtCriticalMsg));
     return;
   }
 
@@ -1733,22 +1733,22 @@ void OverviewFrame::mediumClicked()
 
 void OverviewFrame::hotbitClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://www.hotbit.io/exchange?symbol=CCX_BTC", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://www.hotbit.io/exchange?symbol=XCR_BTC", QUrl::TolerantMode));
 }
 
 void OverviewFrame::stexClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://app.stex.com/en/basic-trade/pair/BTC/CCX", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://app.stex.com/en/basic-trade/pair/BTC/XCR", QUrl::TolerantMode));
 }
 
 void OverviewFrame::tradeogreClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://tradeogre.com/exchange/BTC-CCX", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://tradeogre.com/exchange/BTC-XCR", QUrl::TolerantMode));
 }
 
 void OverviewFrame::qtradeClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://qtrade.io/market/CCX_BTC", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://qtrade.io/market/XCR_BTC", QUrl::TolerantMode));
 }
 
 void OverviewFrame::helpClicked()
