@@ -385,7 +385,7 @@ Lütfen bekle...</translation>
     </message>
     <message>
         <location filename="src/gui/ui/mainwindow.ui" line="389"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation>BANKACILIK</translation>
     </message>
     <message>
@@ -564,7 +564,7 @@ Lütfen bekle...</translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="132"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation>BANKACILIK</translation>
     </message>
     <message>
