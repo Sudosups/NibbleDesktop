@@ -293,7 +293,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/depositsframe.ui" line="194"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -802,7 +802,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="gui/ui/mainwindow.ui" line="449"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1171,7 +1171,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/overviewframe.ui" line="129"/>
-        <source>Banking</source>
+        <source>REWARDS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1297,7 +1297,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="gui/ui/overviewframe.ui" line="1422"/>
-        <source>BANKING</source>
+        <source>REWARDS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
