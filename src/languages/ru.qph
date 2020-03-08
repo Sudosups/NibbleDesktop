@@ -5,7 +5,7 @@
     <target>О %1</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code. Conceal.Network enables untraceable and anonymous messaging, and a secure way to transfer funds. Using a distributed public ledger, the sender and receiver are kept anonymous.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -13,8 +13,8 @@
     <target>ЗАКРЫТЬ</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Кошелек Conceal</target>
+    <source>The Crumbs Wallet</source>
+    <target>Кошелек Crumbs</target>
 </phrase>
 <phrase>
     <source>Select address</source>
@@ -345,7 +345,7 @@ p, li { white-space: pre-wrap; }
     <target>(минимальный срок - 1 квартал, максимальный - 20 кварталов)</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -353,7 +353,7 @@ p, li { white-space: pre-wrap; }
     <target>Правовое уведомление</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Conceal is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Conceal is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2018-2019 - Conceal.Network&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -678,7 +678,7 @@ Please wait...</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -914,7 +914,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -950,8 +950,8 @@ p, li { white-space: pre-wrap; }
     <target>Доступно к выводу</target>
 </phrase>
 <phrase>
-    <source>CONCEAL.NETWORK</source>
-    <target>МОЙ КОШЕЛЕК CONCEAL</target>
+    <source>CRUMBS</source>
+    <target>МОЙ КОШЕЛЕК CRUMBS</target>
 </phrase>
 <phrase>
     <source>currentWallet</source>
@@ -1042,8 +1042,8 @@ p, li { white-space: pre-wrap; }
     <target>ЗАГРУЗКА КОШЕЛЬКА</target>
 </phrase>
 <phrase>
-    <source>Conceal Wallet Update</source>
-    <target>Обновить кошелек Conceal</target>
+    <source>Crumbs Wallet Update</source>
+    <target>Обновить кошелек Crumbs</target>
 </phrase>
 <phrase>
     <source>There is an update to the wallet available.
@@ -1148,7 +1148,7 @@ p, li { white-space: pre-wrap; }
     <target>продвинутые пользователи:</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1248,7 +1248,7 @@ p, li { white-space: pre-wrap; }
     <target>Пожалуйста, введите адрес получателя</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1284,7 +1284,7 @@ p, li { white-space: pre-wrap; }
     <target>НАЗАД</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1348,7 +1348,7 @@ p, li { white-space: pre-wrap; }
     <target>История транзакций</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1400,8 +1400,8 @@ p, li { white-space: pre-wrap; }
     <target>Сервер обновлений недоступен</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Кошелек Conceal</target>
+    <source>The Crumbs Wallet</source>
+    <target>Кошелек Crumbs</target>
 </phrase>
 <phrase>
     <source>Invalid address</source>
@@ -1813,7 +1813,7 @@ Are you sure?</source>
     <target>СИНХРОНИЗАЦИЯ</target>
 </phrase>
 <phrase>
-    <source>About Conceal</source>
+    <source>About Crumbs</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1913,7 +1913,7 @@ Are you sure?</source>
     <target>Мнемоническая фраза</target>
 </phrase>
 <phrase>
-    <source>Failed to lookup Conceal ID</source>
+    <source>Failed to lookup Crumbs ID</source>
     <target>Поиск не удался</target>
 </phrase>
 <phrase>
@@ -2073,35 +2073,35 @@ Are you sure?</source>
     <target>Добро пожаловать</target>
 </phrase>
 <phrase>
-    <source>WELCOME TO THE CONCEAL WALLET</source>
-    <target>Добро пожаловать в кошелек Conceal</target>
+    <source>WELCOME TO THE CRUMBS WALLET</source>
+    <target>Добро пожаловать в кошелек Crumbs</target>
 </phrase>
 <phrase>
-    <source>■  Conceal is a decentralized blockchain bank.</source>
-    <target>■  Conceal - это децентрализованный блокчейн-банк.</target>
+    <source>■  Crumbs is a decentralized reward system.</source>
+    <target>■  Crumbs - это децентрализованный блокчейн-банк.</target>
 </phrase>
 <phrase>
-    <source>■  The Conceal Wallet is a free, open-source interface.</source>
-    <target>■  Кошелек Conceal - это бесплатный продукт с открытым кодом.</target>
+    <source>■  The Crumbs Wallet is a free, open-source interface.</source>
+    <target>■  Кошелек Crumbs - это бесплатный продукт с открытым кодом.</target>
 </phrase>
 <phrase>
-    <source>■  The wallet allows access to all Conceal services.</source>
-    <target>■  Наличие кошелька дает вам право доступа ко всем услугам Conceal.</target>
+    <source>■  The wallet allows access to all crumbs services.</source>
+    <target>■  Наличие кошелька дает вам право доступа ко всем услугам Crumbs.</target>
 </phrase>
 <phrase>
     <source>■  You control the private keys to your funds.</source>
     <target>■  Вы контролируете приватные ключи, открывающие доступ к вашим средствам.</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Кошелек Conceal</target>
+    <source>The Crumbs Wallet</source>
+    <target>Кошелек Crumbs</target>
 </phrase>
 <phrase>
     <source>NEXT</source>
     <target>ДАЛЕЕ</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -2117,12 +2117,12 @@ Are you sure?</source>
     <target>■  Зная ваш адрес, любой пользователь может переводить вам CCX.</target>
 </phrase>
 <phrase>
-    <source>■  The developers of Conceal have no access to your password, your keys, </source>
-    <target>■  У разработчиков Conceal нет доступа к вашему паролю, вашим приватным ключам,</target>
+    <source>■  The Nibble Developers have no access to your password, your keys, </source>
+    <target>■  У разработчиков Crumbs нет доступа к вашему паролю, вашим приватным ключам,</target>
 </phrase>
 <phrase>
-    <source>How does the Conceal Wallet work?</source>
-    <target>Как работает кошелек Conceal?</target>
+    <source>How does the Crumbs Wallet work?</source>
+    <target>Как работает кошелек Crumbs?</target>
 </phrase>
 <phrase>
     <source>■  NEVER share your seed, keys, or wallet file with anyone.</source>
