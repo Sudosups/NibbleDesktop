@@ -376,7 +376,7 @@ color: #ccc;</string>
      <normaloff>:/icons/icon-deposit.png</normaloff>:/icons/icon-deposit.png</iconset>
    </property>
    <property name="text">
-    <string>BANKING</string>
+    <string>REWARDS</string>
    </property>
    <property name="font">
     <font>
