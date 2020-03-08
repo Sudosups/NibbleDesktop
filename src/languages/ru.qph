@@ -253,8 +253,8 @@ p, li { white-space: pre-wrap; }
     <target>Ярлык инвестиции</target>
 </phrase>
 <phrase>
-    <source>(minimum of 1 CCX)</source>
-    <target>(минимальная сумма - 1 CCX)</target>
+    <source>(minimum of 1 XCR)</source>
+    <target>(минимальная сумма - 1 XCR)</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 week, maximum 52 weeks)</source>
@@ -329,7 +329,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source> CCX</source>
+    <source> XCR</source>
     <target></target>
 </phrase>
 <phrase>
@@ -337,8 +337,8 @@ p, li { white-space: pre-wrap; }
     <target>Процент инвестиции</target>
 </phrase>
 <phrase>
-    <source>(minimum of 50,000 CCX)</source>
-    <target>(минимальная сумма - 50,000 CCX)</target>
+    <source>(minimum of 50,000 XCR)</source>
+    <target>(минимальная сумма - 50,000 XCR)</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 quarter, maximum 20 quarters)</source>
@@ -974,7 +974,7 @@ p, li { white-space: pre-wrap; }
     <target>ИНВЕСТИЦИИ</target>
 </phrase>
 <phrase>
-    <source>CCX</source>
+    <source>XCR</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1232,8 +1232,8 @@ p, li { white-space: pre-wrap; }
     <target>СООБЩЕНИЕ (ПО ВЫБОРУ)</target>
 </phrase>
 <phrase>
-    <source>You can send an optional message along with your transfer. There is a 0.000010 CCX fee per character.</source>
-    <target>Вы можете отослать дополнительное сообщение вместе с вашим переводом. За каждый символ сообщения выплачивается комиссия в 0.000010 CCX.</target>
+    <source>You can send an optional message along with your transfer. There is a 0.000010 XCR fee per character.</source>
+    <target>Вы можете отослать дополнительное сообщение вместе с вашим переводом. За каждый символ сообщения выплачивается комиссия в 0.000010 XCR.</target>
 </phrase>
 <phrase>
     <source>Some exchanges and other services require that a Payment ID is included when sending funds.</source>
@@ -2113,8 +2113,8 @@ Are you sure?</source>
     <target>мнемоническую фразу и адрес кошелька.</target>
 </phrase>
 <phrase>
-    <source>■  If you send your public address to someone then they can send you CCX.</source>
-    <target>■  Зная ваш адрес, любой пользователь может переводить вам CCX.</target>
+    <source>■  If you send your public address to someone then they can send you XCR.</source>
+    <target>■  Зная ваш адрес, любой пользователь может переводить вам XCR.</target>
 </phrase>
 <phrase>
     <source>■  The Nibble Developers have no access to your password, your keys, </source>
@@ -2205,8 +2205,8 @@ Are you sure?</source>
     <target>секретную мнемоническую фразу</target>
 </phrase>
 <phrase>
-    <source>seed phrase and access your CCX</source>
-    <target>мнемонической фразы и получите доступ к своим CCX</target>
+    <source>seed phrase and access your XCR</source>
+    <target>мнемонической фразы и получите доступ к своим XCR</target>
 </phrase>
 <phrase>
     <source>and access your assets</source>
