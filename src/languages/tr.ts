@@ -767,7 +767,7 @@ Lütfen bekle...</translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="2750"/>
-        <source>CCX/USD</source>
+        <source>XCR/USD</source>
         <translation></translation>
     </message>
     <message>
@@ -1147,7 +1147,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6064"/>
-        <source>0.001000 CCX</source>
+        <source>0.001000 XCR</source>
         <translation></translation>
     </message>
     <message>
@@ -1235,7 +1235,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6837"/>
-        <source>0.000000 CCX 0.00 USD</source>
+        <source>0.000000 XCR 0.00 USD</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2289,8 +2289,8 @@ Emin misiniz?</translation>
     <name>WalletGui::RecentTransactionDelegate</name>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="47"/>
-        <source>Received CCX</source>
-        <translation>Alınan CCX</translation>
+        <source>Received XCR</source>
+        <translation>Alınan XCR</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="50"/>
@@ -2299,8 +2299,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="54"/>
-        <source>Send CCX</source>
-        <translation>Gönderilen CCX</translation>
+        <source>Send XCR</source>
+        <translation>Gönderilen XCR</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="58"/>
@@ -2527,8 +2527,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="335"/>
-        <source>■  If you send your public address to someone then they can send you CCX.</source>
-        <translation>■ Cüzdan adresinizi birisine gönderirseniz size CCX gönderebilirler.</translation>
+        <source>■  If you send your public address to someone then they can send you XCR.</source>
+        <translation>■ Cüzdan adresinizi birisine gönderirseniz size XCR gönderebilirler.</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
@@ -2642,8 +2642,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1002"/>
-        <source>seed phrase and access your CCX</source>
-        <translation>seed ifadesi ile içe aktarın ve CCX&apos;lerinize erişin</translation>
+        <source>seed phrase and access your XCR</source>
+        <translation>seed ifadesi ile içe aktarın ve XCR&apos;lerinize erişin</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1028"/>
