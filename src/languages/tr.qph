@@ -5,7 +5,7 @@
     <target>Hakkında</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code. Conceal.Network enables untraceable and anonymous messaging, and a secure way to transfer funds. Using a distributed public ledger, the sender and receiver are kept anonymous.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target>Conceal.Network, %100 açık kaynak koduyla çalışan, finansal kurumların bir müdahalesi olmadan faiz ödeyen, mevduat ve yatırım programlarına sahip olan, merkezi olmayan bir blok zinciri bankasıdır. Conceal.Network, izlenemeyen ve anonim mesajlaşmalar ve para transferi için güvenli bir yol sağlar. Dağıtık bir muhasebe defteri kullanılarak, gönderen ve alıcı gizli tutulur.</target>
 </phrase>
 <phrase>
@@ -13,8 +13,8 @@
     <target>KAPAT</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Conceal Cüzdanım</target>
+    <source>The Crumbs Wallet</source>
+    <target>Crumbs Cüzdanım</target>
 </phrase>
 <phrase>
     <source>Select address</source>
@@ -345,7 +345,7 @@ p, li { white-space: pre-wrap; }
     <target>(en az 1 çeyrek, en fazla 20 çeyrek)</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -353,8 +353,8 @@ p, li { white-space: pre-wrap; }
     <target>Yasal Uyarı</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Conceal is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Conceal is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2018-2019 - Conceal.Network&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-    <target>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Conceal, açık kaynaklı bir deneysel projedir, yani arkasında herhangi bir şirket yoktur. Bu proje topluluk tarafından desteklenmektedir, yani kendini projeye adamış bir ekibe sahiptir, projeye herkes katkıda bulunabilir ve bu çalışmalar gönüllülük esasına dayanır ve belirli bir merkezi bulunmamaktadır. &lt;/p&gt;&lt;p&gt;Conceal, insanlığın yararına olacağı umuduyla geliştirilmiştir, ancak belirli bir amaca yönelik uygun olacağının garantisi veya ticari bir garantisi bulunmamaktadır.&lt;/p&gt;&lt;p&gt;Telif Hakkı Uyarısı &lt;/p&gt;&lt;p&gt;Bu yazılımın ve ilgili dokümantasyon dosyalarının (&amp;quot;Yazılım&amp;quot;) bir kopyasını alan herhangi bir kişinin, ücretsiz olarak, kısıtlama olmaksızın, aşağıda yer alan şartlara bağlı olarak, Yazılımın kopyalarını kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya satma haklarını sınırlandırmaksızın Yazılımı dağıtmasına ve Yazılımın sunulacağı insanların da bu haklara sahip olmalarına izin verilir: &lt;/p&gt;&lt;p&gt;Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dâhil edilecektir. &lt;/p&gt;&lt;p&gt;YAZILIM, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL EDİLMEME GARANTİLERİ DÂHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN, &amp;quot;OLDUĞU GİBİ&amp;quot; SAĞLANIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, HİÇBİR KOŞULDA, HERHANGİ BİR SÖZLEŞMEDEN, HAKSIZ FİİLDEN VEYA YAZILIMIN KULLANIMINDAN KAYNAKLANAN VEYA KAYNAKLANMAYAN YA DA YAZILIM İLE İLİŞKİLİ OLAN HERHANGİ BİR DURUMDAN KAYNAKLANAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN SORUMLU TUTULAMAZ.&lt;/p&gt;&lt;p&gt;Telif hakkı saklıdır 2018-2019 - Conceal.Networkk&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <target>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs, açık kaynaklı bir deneysel projedir, yani arkasında herhangi bir şirket yoktur. Bu proje topluluk tarafından desteklenmektedir, yani kendini projeye adamış bir ekibe sahiptir, projeye herkes katkıda bulunabilir ve bu çalışmalar gönüllülük esasına dayanır ve belirli bir merkezi bulunmamaktadır. &lt;/p&gt;&lt;p&gt;Crumbs, insanlığın yararına olacağı umuduyla geliştirilmiştir, ancak belirli bir amaca yönelik uygun olacağının garantisi veya ticari bir garantisi bulunmamaktadır.&lt;/p&gt;&lt;p&gt;Telif Hakkı Uyarısı &lt;/p&gt;&lt;p&gt;Bu yazılımın ve ilgili dokümantasyon dosyalarının (&amp;quot;Yazılım&amp;quot;) bir kopyasını alan herhangi bir kişinin, ücretsiz olarak, kısıtlama olmaksızın, aşağıda yer alan şartlara bağlı olarak, Yazılımın kopyalarını kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya satma haklarını sınırlandırmaksızın Yazılımı dağıtmasına ve Yazılımın sunulacağı insanların da bu haklara sahip olmalarına izin verilir: &lt;/p&gt;&lt;p&gt;Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dâhil edilecektir. &lt;/p&gt;&lt;p&gt;YAZILIM, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL EDİLMEME GARANTİLERİ DÂHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN, &amp;quot;OLDUĞU GİBİ&amp;quot; SAĞLANIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, HİÇBİR KOŞULDA, HERHANGİ BİR SÖZLEŞMEDEN, HAKSIZ FİİLDEN VEYA YAZILIMIN KULLANIMINDAN KAYNAKLANAN VEYA KAYNAKLANMAYAN YA DA YAZILIM İLE İLİŞKİLİ OLAN HERHANGİ BİR DURUMDAN KAYNAKLANAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN SORUMLU TUTULAMAZ.&lt;/p&gt;&lt;p&gt;Telif hakkı saklıdır 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </target>
 </phrase>
 <phrase>
@@ -679,7 +679,7 @@ Please wait...</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -915,7 +915,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -951,8 +951,8 @@ p, li { white-space: pre-wrap; }
     <target>Çekilebilir</target>
 </phrase>
 <phrase>
-    <source>CONCEAL.NETWORK</source>
-    <target>CONCEAL CÜZDANI</target>
+    <source>CRUMBS</source>
+    <target>CRUMBS CÜZDANI</target>
 </phrase>
 <phrase>
     <source>currentWallet</source>
@@ -1043,8 +1043,8 @@ p, li { white-space: pre-wrap; }
     <target>CÜZDAN YÜKLENİYOR</target>
 </phrase>
 <phrase>
-    <source>Conceal Wallet Update</source>
-    <target>Conceal Cüzdan Güncellemesi</target>
+    <source>Crumbs Wallet Update</source>
+    <target>Crumbs Cüzdan Güncellemesi</target>
 </phrase>
 <phrase>
     <source>There is an update to the wallet available.
@@ -1148,7 +1148,7 @@ p, li { white-space: pre-wrap; }
     <target>ileri düzey kullanıcılar:</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1244,7 +1244,7 @@ p, li { white-space: pre-wrap; }
     <target>Lütfen alıcıların adreslerini girin</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1280,7 +1280,7 @@ p, li { white-space: pre-wrap; }
     <target>GERİ</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1344,7 +1344,7 @@ p, li { white-space: pre-wrap; }
     <target>Işlem Geçmişi</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1396,8 +1396,8 @@ p, li { white-space: pre-wrap; }
     <target>Güncelleme kontrol edilemiyor</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Conceal Cüzdanım</target>
+    <source>The Crumbs Wallet</source>
+    <target>Crumbs Cüzdanım</target>
 </phrase>
 <phrase>
     <source>Invalid address</source>
@@ -1809,7 +1809,7 @@ Are you sure?</source>
     <target>SENKRONIZE EDILIYOR</target>
 </phrase>
 <phrase>
-    <source>About Conceal</source>
+    <source>About Crumbs</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1909,7 +1909,7 @@ Are you sure?</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>Failed to lookup Conceal ID</source>
+    <source>Failed to lookup Crumbs ID</source>
     <target></target>
 </phrase>
 <phrase>
@@ -2069,35 +2069,35 @@ Are you sure?</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>WELCOME TO THE CONCEAL WALLET</source>
-    <target>CONCEAL CÜZDANINA HOŞ GELDİNİZ</target>
+    <source>WELCOME TO THE CRUMBS WALLET</source>
+    <target>CRUMBS CÜZDANINA HOŞ GELDİNİZ</target>
 </phrase>
 <phrase>
-    <source>■  Conceal is a decentralized blockchain bank.</source>
-    <target>■ Conceal, merkeziyetsiz bir blok zinciri bankasıdır.</target>
+    <source>■  Crumbs is a decentralized reward system.</source>
+    <target>■ Crumbs, merkeziyetsiz bir blok zinciri bankasıdır.</target>
 </phrase>
 <phrase>
-    <source>■  The Conceal Wallet is a free, open-source interface.</source>
-    <target>■ Conceal Cüzdanı ücretsiz, açık kaynak kodlu bir arayüzdür.</target>
+    <source>■  The Crumbs Wallet is a free, open-source interface.</source>
+    <target>■ Crumbs Cüzdanı ücretsiz, açık kaynak kodlu bir arayüzdür.</target>
 </phrase>
 <phrase>
-    <source>■  The wallet allows access to all Conceal services.</source>
-    <target>■ Cüzdan, tüm Conceal hizmetlerine erişmenizi sağlar.</target>
+    <source>■  The wallet allows access to all Crumbs services.</source>
+    <target>■ Cüzdan, tüm Crumbs hizmetlerine erişmenizi sağlar.</target>
 </phrase>
 <phrase>
     <source>■  You control the private keys to your funds.</source>
     <target>■ Fonlarınıza erişebileceğiniz private key&apos;lerin kontrolü sizdedir.</target>
 </phrase>
 <phrase>
-    <source>The Conceal Wallet</source>
-    <target>Conceal Cüzdanım</target>
+    <source>The Crumbs Wallet</source>
+    <target>Crumbs Cüzdanım</target>
 </phrase>
 <phrase>
     <source>NEXT</source>
     <target>İLERİ</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/conceal-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/images/crumbs-small.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -2113,12 +2113,12 @@ Are you sure?</source>
     <target>■ Cüzdan adresinizi birisine gönderirseniz size CCX gönderebilirler.</target>
 </phrase>
 <phrase>
-    <source>■  The developers of Conceal have no access to your password, your keys, </source>
-    <target>■ Conceal geliştiricileri şifrenize, key&apos;lerinize,</target>
+    <source>■  The Nibble Developers have no access to your password, your keys, </source>
+    <target>■ Crumbs geliştiricileri şifrenize, key&apos;lerinize,</target>
 </phrase>
 <phrase>
-    <source>How does the Conceal Wallet work?</source>
-    <target>Conceal Cüzdanı nasıl çalışır?</target>
+    <source>How does the Crumbs Wallet work?</source>
+    <target>Crumbs Cüzdanı nasıl çalışır?</target>
 </phrase>
 <phrase>
     <source>■  NEVER share your seed, keys, or wallet file with anyone.</source>
