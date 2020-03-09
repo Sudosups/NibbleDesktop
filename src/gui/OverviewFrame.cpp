@@ -384,7 +384,7 @@ void OverviewFrame::transactionsInserted(const QModelIndex &_parent, int _first,
 
 void OverviewFrame::updateWalletAddress(const QString &_address)
 {
-  m_ui->m_copyAddressButton->setStyleSheet("border: none; font-size: 14px;font-family: 'Poppins';color: orange; text-align: left;");
+  m_ui->m_copyAddressButton->setStyleSheet("border: none; font-size: 14px;font-family: 'Poppins';color: green; text-align: left;");
   OverviewFrame::wallet_address = _address;
   m_ui->m_copyAddressButton_3->setText(OverviewFrame::wallet_address);
 
@@ -483,7 +483,7 @@ void OverviewFrame::actualDepositBalanceUpdated(quint64 _balance)
   {
     if (unlockedFunds > 0)
     {
-      m_ui->m_unlockedDeposits->setStyleSheet("color: orange; background: transparent; font-family: Poppins; font-size: 14px; border: none;");
+      m_ui->m_unlockedDeposits->setStyleSheet("color: green; background: transparent; font-family: Poppins; font-size: 14px; border: none;");
     }
     else
     {
@@ -509,7 +509,7 @@ void OverviewFrame::actualInvestmentBalanceUpdated(quint64 _balance)
   {
     if (unlockedFunds > 0)
     {
-      m_ui->m_unlockedDeposits->setStyleSheet("color: orange; background: transparent; font-family: Poppins; font-size: 14px; border: none;");
+      m_ui->m_unlockedDeposits->setStyleSheet("color: green; background: transparent; font-family: Poppins; font-size: 14px; border: none;");
     }
     else
     {
