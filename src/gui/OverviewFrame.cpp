@@ -241,7 +241,7 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
   /* Pull the chart */
   QNetworkAccessManager *nam = new QNetworkAccessManager(this);
   connect(nam, &QNetworkAccessManager::finished, this, &OverviewFrame::downloadFinished);
-  const QUrl url = QUrl::fromUserInput("http://walletapi.conceal.network/services/charts/price.png?vsCurrency=usd&days=7&priceDecimals=2&xPoints=12&width=511&height=191&dateFormat=MM-DD");
+  const QUrl url = QUrl::fromUserInput("");
   QNetworkRequest request(url);
   nam->get(request);
 
@@ -555,17 +555,17 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
   if (currentCurrency == "EUR")
   {
     xcreur = _eurxcr.toFloat();
-    m_ui->m_xcrusd->setText("€" + _eurxcr);
+  /*  m_ui->m_xcrusd->setText("€" + _eurxcr);*/
     m_ui->m_btcusd->setText("€" + _eurbtc);
-    m_ui->m_marketCap->setText("€" + _eurmarketcap);
+  /* m_ui->m_marketCap->setText("€" + _eurmarketcap);*/
     m_ui->m_volume->setText("€" + _eurvolume);
   }
   else
   {
     xcrusd = _usdxcr.toFloat();
-    m_ui->m_xcrusd->setText("$" + _usdxcr);
+ /*   m_ui->m_xcrusd->setText("$" + _usdxcr);*/
     m_ui->m_btcusd->setText("$" + _usdbtc);
-    m_ui->m_marketCap->setText("$" + _usdmarketcap);
+  /*  m_ui->m_marketCap->setText("$" + _usdmarketcap); */
     m_ui->m_volume->setText("$" + _usdvolume);
   }
 
