@@ -1753,7 +1753,7 @@ void OverviewFrame::qtradeClicked()
 
 void OverviewFrame::helpClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://https://www.nibble-nibble.com/Crumbs", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com/crumbs", QUrl::TolerantMode));
 }
 
 /* Initiate a password prompt meant for critical tasks like sending funds etc */
