@@ -195,9 +195,9 @@ font-size: 15px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#next1 {color: orange; background-color: #212529; border: 1px solid orange; font-size: 16px;}
+        <string notr="true">QPushButton#next1 {color: green; background-color: #212529; border: 1px solid green; font-size: 16px;}
 
-QPushButton#next1:hover {color: orange; background-color: #212529; border: 2px solid orange; font-size: 16px;}</string>
+QPushButton#next1:hover {color: green; background-color: #212529; border: 2px solid green; font-size: 16px;}</string>
        </property>
        <property name="text">
         <string>NEXT</string>
@@ -400,9 +400,9 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#next2 {color: orange; background-color: #212529; border: 1px solid orange; font-size: 16px;}
+        <string notr="true">QPushButton#next2 {color: green; background-color: #212529; border: 1px solid green; font-size: 16px;}
 
-QPushButton#next2:hover {color: orange; background-color: #212529; border: 2px solid orange; font-size: 16px;}</string>
+QPushButton#next2:hover {color: green; background-color: #212529; border: 2px solid green; font-size: 16px;}</string>
        </property>
        <property name="text">
         <string>NEXT</string>
@@ -663,9 +663,9 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#next3 {color: orange; background-color: #212529; border: 1px solid orange; font-size: 16px;}
+        <string notr="true">QPushButton#next3 {color: green; background-color: #212529; border: 1px solid green; font-size: 16px;}
 
-QPushButton#next3:hover {color: orange; background-color: #212529; border: 2px solid orange; font-size: 16px;}</string>
+QPushButton#next3:hover {color: green; background-color: #212529; border: 2px solid green; font-size: 16px;}</string>
        </property>
        <property name="text">
         <string>NEXT</string>
@@ -781,7 +781,7 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>CREATE NEW WALLET</string>
@@ -803,7 +803,7 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>OPEN EXISTING WALLET</string>
@@ -825,7 +825,7 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>IMPORT PRIVATE KEYS</string>
@@ -847,7 +847,7 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>IMPORT GUI KEY</string>
@@ -869,7 +869,7 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>IMPORT SEED</string>
