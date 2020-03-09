@@ -592,7 +592,7 @@ void OverviewFrame::updatePortfolio()
   {
     total = xcrusd * (float)OverviewFrame::totalBalance;
   }
-  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " XCR | " + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
+  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " XCR  ");}/* + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
 }
 
 /* Banking menu button clicked */
