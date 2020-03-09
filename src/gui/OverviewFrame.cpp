@@ -1703,57 +1703,57 @@ void OverviewFrame::currentAddressChanged(const QModelIndex &_index)
 
 void OverviewFrame::discordClicked()
 {
-  QDesktopServices::openUrl(QUrl("http://discord.conceal.network/", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/jzdt9Ck", QUrl::TolerantMode));
 }
 
 void OverviewFrame::twitterClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://twitter.com/ConcealNetwork", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://twitter.com/NibbleClassic", QUrl::TolerantMode));
 }
 
 void OverviewFrame::telegramClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://t.co/55klBHKGUR", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::githubClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://github.com/ConcealNetwork", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://github.com/NibbleClassic", QUrl::TolerantMode));
 }
 
 void OverviewFrame::redditClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://www.reddit.com/r/ConcealNetwork/", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::mediumClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://medium.com/@ConcealNetwork", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::hotbitClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://www.hotbit.io/exchange?symbol=XCR_BTC", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::stexClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://app.stex.com/en/basic-trade/pair/BTC/XCR", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::tradeogreClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://tradeogre.com/exchange/BTC-XCR", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::qtradeClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://qtrade.io/market/XCR_BTC", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
 }
 
 void OverviewFrame::helpClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://conceal.network/wiki/doku.php?id=start", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://https://www.nibble-nibble.com/Crumbs", QUrl::TolerantMode));
 }
 
 /* Initiate a password prompt meant for critical tasks like sending funds etc */
