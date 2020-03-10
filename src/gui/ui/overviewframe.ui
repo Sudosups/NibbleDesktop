@@ -1051,7 +1051,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string>Reddit</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QPushButton" name="m_githubButton">
@@ -1093,7 +1093,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string>Medium</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="m_depositsUnlockedTitle_15">
@@ -1164,7 +1164,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string>STEX</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="m_depositsUnlockedTitle_17">
@@ -1264,7 +1264,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string>qTrade</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="m_depositsUnlockedTitle_19">
