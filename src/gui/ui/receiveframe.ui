@@ -166,7 +166,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>COPY</string>
@@ -204,7 +204,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>BACK</string>
@@ -242,7 +242,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>COPY SPEND KEY</string>
@@ -374,7 +374,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>COPY VIEW KEY</string>
@@ -396,7 +396,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>BACK</string>
@@ -556,7 +556,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>SHOW SEED</string>
@@ -578,7 +578,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>BACK</string>
@@ -600,7 +600,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>PRIVATE KEYS</string>
@@ -638,7 +638,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>TRACKING KEY</string>
@@ -712,7 +712,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>COPY</string>
@@ -785,7 +785,7 @@ p, li { white-space: pre-wrap; }
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        <string notr="true">color: #ddd; border: 1px solid green; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
        </property>
        <property name="text">
         <string>BACK</string>
