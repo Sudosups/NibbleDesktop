@@ -44,7 +44,7 @@ To acquire the source via git and build the release version, run the following c
 - `cd ~`
 - `git clone https://github.com/NibbleClassic/crumbs-desktop`
 - `cd crumbs-wallet`
-- `git clone https://github.com/NibbleClassic/crumbs-core.git cryptonote`
+- `git clone https://github.com/NibbleClassic/crumbs.git cryptonote`
 - `make build-release`
 - `mkdir bin && mv build/release/CRUMBS-GUI bin/`
 - `make clean`
@@ -65,7 +65,7 @@ If the build is successful the binaries will be in the bin folder.
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017' or run "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsMSBuildCmd.bat" from any command prompt.
 - Edit the CMakeLists.txt file and set the path to QT cmake folder. For example: set(CMAKE_PREFIX_PATH "C:\\Qt\\5.11.0\\msvc2017_64\\lib\\cmake\\").
-- `git clone https://github.com/NibbleClassic/crumbs-core`
+- `git clone https://github.com/NibbleClassic/crumbs`
 - `git clone https://github.com/NibbleClassic/crumbs-wallet`
 - Copy the contents of the crumbs-core folder into crumbs-wallet\cryptonote
 - `cd crumbs-wallet`
