@@ -5557,7 +5557,7 @@ p, li { white-space: pre-wrap; }
        </widget>
       </widget>
      </widget>
-     <widget class="QLabel" name="m_myConcealWalletTitle">
+     <widget class="QLabel" name="m_myCrumbsWalletTitle">
       <property name="geometry">
        <rect>
         <x>209</x>
@@ -6101,7 +6101,7 @@ text-align: left;</string>
      <zorder>m_qrcodebutton</zorder>
      <zorder>m_copyAddressButton</zorder>
      <zorder>m_currentWalletTitle</zorder>
-     <zorder>m_myConcealWalletTitle</zorder>
+     <zorder>m_myCrumbsWalletTitle</zorder>
      <zorder>m_statusBox</zorder>
      <zorder>leftMenu</zorder>
      <zorder>line</zorder>
