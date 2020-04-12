@@ -1733,7 +1733,7 @@ void OverviewFrame::mediumClicked()
 
 void OverviewFrame::hotbitClicked()
 {
-  QDesktopServices::openUrl(QUrl("", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com/crumbs", QUrl::TolerantMode));
 }
 
 void OverviewFrame::stexClicked()
