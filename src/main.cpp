@@ -47,7 +47,7 @@ inline void newLogString(const QString& _string) {
 
 int main(int argc, char* argv[]) {
   QApplication app(argc, argv);
-  app.setApplicationName("Conceal Desktop");
+  app.setApplicationName("Crumbs Desktop");
   app.setApplicationVersion(Settings::instance().getVersion());
   app.setQuitOnLastWindowClosed(false);
 
@@ -107,7 +107,7 @@ int main(int argc, char* argv[]) {
   splash->raise();
   LogFileWatcher* logWatcher(nullptr);
   if (logWatcher == nullptr) {
-    logWatcher = new LogFileWatcher(Settings::instance().getDataDir().absoluteFilePath("Concealwallet.log"), &app);
+    logWatcher = new LogFileWatcher(Settings::instance().getDataDir().absoluteFilePath("Crumbswallet.log"), &app);
     QObject::connect(logWatcher, &LogFileWatcher::newLogStringSignal, &app, &newLogString);
   }
 

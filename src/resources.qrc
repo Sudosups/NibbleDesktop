@@ -47,6 +47,7 @@
         <file>images/cryptonote2.png</file>        
     </qresource>
     <qresource prefix="/">
+	<file>icons/crumbsC2020.png</file>
         <file>icons/discord.png</file>
         <file>icons/telegram.png</file>
         <file>icons/medium.png</file>
