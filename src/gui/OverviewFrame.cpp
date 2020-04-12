@@ -607,7 +607,7 @@ void OverviewFrame::bankingClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myConcealWalletTitle->setText("REWARDS");
+    m_ui->m_myCrumbsWalletTitle->setText("REWARDS");
     m_ui->bankingBox->raise();
   }
   else
@@ -619,14 +619,14 @@ void OverviewFrame::bankingClicked()
 void OverviewFrame::transactionHistoryClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("TRANSACTIONS");
+  m_ui->m_myCrumbsWalletTitle->setText("TRANSACTIONS");
   m_ui->transactionsBox->raise();
 }
 
 void OverviewFrame::dashboardClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("CRUMBS");
+  m_ui->m_myCrumbsWalletTitle->setText("CRUMBS");
   m_ui->overviewBox->raise();
   m_ui->m_newTransferButton->show();
   m_ui->m_newMessageButton->show();
@@ -635,7 +635,7 @@ void OverviewFrame::dashboardClicked()
 void OverviewFrame::aboutClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("ABOUT");
+  m_ui->m_myCrumbsWalletTitle->setText("ABOUT");
   m_ui->aboutBox->raise();
   m_ui->m_newTransferButton->show();
   m_ui->m_newMessageButton->show();
@@ -644,7 +644,7 @@ void OverviewFrame::aboutClicked()
 void OverviewFrame::settingsClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("WALLET SETTINGS");
+  m_ui->m_myCrumbsWalletTitle->setText("WALLET SETTINGS");
   m_ui->settingsBox->raise();
 }
 
@@ -656,7 +656,7 @@ void OverviewFrame::qrCodeClicked()
 void OverviewFrame::inboxClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myConcealWalletTitle->setText("INBOX");
+  m_ui->m_myCrumbsWalletTitle->setText("INBOX");
   m_ui->messageBox->raise();
 }
 
@@ -680,7 +680,7 @@ void OverviewFrame::newTransferClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myConcealWalletTitle->setText("SEND FUNDS");
+    m_ui->m_myCrumbsWalletTitle->setText("SEND FUNDS");
     m_ui->sendBox->raise();
     OverviewFrame::fromPay = true;
   }
@@ -700,7 +700,7 @@ void OverviewFrame::newMessageClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myConcealWalletTitle->setText("NEW MESSAGE");
+    m_ui->m_myCrumbsWalletTitle->setText("NEW MESSAGE");
     m_ui->newMessageBox->raise();
     OverviewFrame::fromPay = false;
   }
@@ -781,13 +781,13 @@ void OverviewFrame::setAddress(const QString &_address)
   if (OverviewFrame::fromPay == true)
   {
     m_ui->m_addressEdit->setText(_address);
-    m_ui->m_myConcealWalletTitle->setText("SEND FUNDS");
+    m_ui->m_myCrumbsWalletTitle->setText("SEND FUNDS");
     m_ui->sendBox->raise();
   }
   else
   {
     m_ui->m_addressMessageEdit->setText(_address);
-    m_ui->m_myConcealWalletTitle->setText("SEND MESSAGE");
+    m_ui->m_myCrumbsWalletTitle->setText("SEND MESSAGE");
     m_ui->newMessageBox->raise();
   }
 }
@@ -1024,7 +1024,7 @@ bool OverviewFrame::isValidPaymentId(const QByteArray &_paymentIdString)
 /* Open address book */
 void OverviewFrame::addressBookClicked()
 {
-  m_ui->m_myConcealWalletTitle->setText("ADDRESS BOOK");
+  m_ui->m_myCrumbsWalletTitle->setText("ADDRESS BOOK");
   m_ui->addressBookBox->raise();
 }
 
