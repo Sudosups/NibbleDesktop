@@ -730,7 +730,7 @@ text-align: left;
 </string>
         </property>
         <property name="text">
-         <string>CONTACT US / STAY INFORMED</string>
+         <string>HELPFUL LINKS</string>
         </property>
        </widget>
        <widget class="QLabel" name="m_totalBalanceLabel_3">
@@ -1122,7 +1122,7 @@ border: none;</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="../../resources.qrc"></pixmap>
+         <pixmap resource="../../resources.qrc">:/icons/crumbsC2020.png</pixmap>
         </property>
        </widget>
        <widget class="QPushButton" name="m_hotbitButton">
@@ -1143,7 +1143,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string></string>
+         <string>Crumbs</string>
         </property>
        </widget>
        <widget class="QPushButton" name="m_stexButton">
