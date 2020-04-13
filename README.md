@@ -14,12 +14,11 @@ Crumbs is part of The Nibble Network and is accessible by anyone in the world re
 Crumbs is open-source, community driven and truly decentralized. No one owns it, everyone can take part.
 
 ## Resources
-- Web: https://nibble-nibble.com
-- GitHub: 
-- Discord: 
-- Twitter: 
-- Bitcoin Talk: 
-- Paperwallet: 
+- Web: https://nibble-nibble.com/crumbs
+- GitHub: https://github.com/NibbleClassic
+- Discord: https://discordapp.com/invite/jzdt9Ck
+- Twitter: @NibbleClassic
+
 
 ## Compiling Crumbs from source
 
