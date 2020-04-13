@@ -1,7 +1,7 @@
 
 
 # Crumbs Desktop (GUI Wallet)
-Latest Release: v1.0
+Latest Release: v1.0.1
 
 Maintained by The Nibble Developers.
 
