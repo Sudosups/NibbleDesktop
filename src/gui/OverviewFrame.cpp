@@ -1706,7 +1706,7 @@ void OverviewFrame::currentAddressChanged(const QModelIndex &_index)
 
 void OverviewFrame::discordClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/jzdt9Ck", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/rqYhADW", QUrl::TolerantMode));
 }
 
 void OverviewFrame::twitterClicked()
