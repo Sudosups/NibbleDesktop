@@ -1889,7 +1889,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">00.00</string>
+         <string notr="true"></string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1918,7 +1918,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">00.00</string>
+         <string notr="true"></string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1947,7 +1947,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">00.00</string>
+         <string notr="true"></string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1976,7 +1976,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string>XCR/USD</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="m_btcusd">
@@ -2031,7 +2031,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string>VOLUME</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="label_9">
@@ -2057,7 +2057,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string>MARKETCAP</string>
+         <string></string>
         </property>
        </widget>
        <widget class="QLabel" name="label_11">
