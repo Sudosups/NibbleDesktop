@@ -560,7 +560,7 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
   /*  m_ui->m_xcrusd->setText("€" + _eurxcr);*/
     m_ui->m_btcusd->setText("€" + _eurbtc);
   /* m_ui->m_marketCap->setText("€" + _eurmarketcap);*/
-    m_ui->m_volume->setText("€" + _eurvolume);
+  /*  m_ui->m_volume->setText("€" + _eurvolume);*/
   }
   else
   {
@@ -568,7 +568,7 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
  /*   m_ui->m_xcrusd->setText("$" + _usdxcr);*/
     m_ui->m_btcusd->setText("$" + _usdbtc);
   /*  m_ui->m_marketCap->setText("$" + _usdmarketcap); */
-    m_ui->m_volume->setText("$" + _usdvolume);
+  /*  m_ui->m_volume->setText("$" + _usdvolume);*/
   }
 
   updatePortfolio();
@@ -1706,7 +1706,7 @@ void OverviewFrame::currentAddressChanged(const QModelIndex &_index)
 
 void OverviewFrame::discordClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/rqYhADW", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/jzdt9Ck", QUrl::TolerantMode));
 }
 
 void OverviewFrame::twitterClicked()
