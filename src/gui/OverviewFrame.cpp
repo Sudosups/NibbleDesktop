@@ -241,11 +241,13 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
   /* Pull the chart */
   QNetworkAccessManager *nam = new QNetworkAccessManager(this);
   connect(nam, &QNetworkAccessManager::finished, this, &OverviewFrame::downloadFinished);
-  const QUrl url = QUrl::fromUserInput("");
+  const QUrl url = QUrl::fromUserInput("https://i.imgur.com/YtEUWeZ.png&width=511&height=191");
   QNetworkRequest request(url);
   nam->get(request);
 
   QString connection = Settings::instance().getConnection();
+
+
 
   /* Get current language */
   QString language = Settings::instance().getLanguage();
@@ -571,6 +573,7 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
 
   updatePortfolio();
 }
+
 
 /* Exchange address check complete */
 void OverviewFrame::onExchangeFound(QString &_exchange)
