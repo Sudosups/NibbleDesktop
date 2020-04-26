@@ -2144,7 +2144,7 @@ text-align: left;
 </string>
         </property>
         <property name="text">
-         <string>MARKET INFORMATION</string>
+         <string>INFO ZONE</string>
         </property>
        </widget>
        <zorder>m_volume</zorder>
@@ -2159,6 +2159,7 @@ text-align: left;
        <zorder>m_chart_2</zorder>
        <zorder>label_13</zorder>
        <zorder>m_chart</zorder>
+
       </widget>
      </widget>
      <widget class="QGroupBox" name="transactionsBox">
