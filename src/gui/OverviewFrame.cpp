@@ -241,11 +241,13 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
   /* Pull the chart */
   QNetworkAccessManager *nam = new QNetworkAccessManager(this);
   connect(nam, &QNetworkAccessManager::finished, this, &OverviewFrame::downloadFinished);
-  const QUrl url = QUrl::fromUserInput("");
+  const QUrl url = QUrl::fromUserInput("https://i.imgur.com/rh2ppG6.png&width=511&height=191");
   QNetworkRequest request(url);
   nam->get(request);
 
   QString connection = Settings::instance().getConnection();
+
+
 
   /* Get current language */
   QString language = Settings::instance().getLanguage();
@@ -558,7 +560,7 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
   /*  m_ui->m_xcrusd->setText("€" + _eurxcr);*/
     m_ui->m_btcusd->setText("€" + _eurbtc);
   /* m_ui->m_marketCap->setText("€" + _eurmarketcap);*/
-    m_ui->m_volume->setText("€" + _eurvolume);
+  /*  m_ui->m_volume->setText("€" + _eurvolume);*/
   }
   else
   {
@@ -566,11 +568,12 @@ void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr,
  /*   m_ui->m_xcrusd->setText("$" + _usdxcr);*/
     m_ui->m_btcusd->setText("$" + _usdbtc);
   /*  m_ui->m_marketCap->setText("$" + _usdmarketcap); */
-    m_ui->m_volume->setText("$" + _usdvolume);
+  /*  m_ui->m_volume->setText("$" + _usdvolume);*/
   }
 
   updatePortfolio();
 }
+
 
 /* Exchange address check complete */
 void OverviewFrame::onExchangeFound(QString &_exchange)
@@ -1703,7 +1706,7 @@ void OverviewFrame::currentAddressChanged(const QModelIndex &_index)
 
 void OverviewFrame::discordClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/jzdt9Ck", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/rqYhADW", QUrl::TolerantMode));
 }
 
 void OverviewFrame::twitterClicked()
