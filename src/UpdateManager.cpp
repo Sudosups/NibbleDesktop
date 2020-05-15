@@ -68,7 +68,7 @@ void Updater::checkForUpdate()
 {
   QNetworkAccessManager *nam = new QNetworkAccessManager(this);
   connect(nam, &QNetworkAccessManager::finished, this, &Updater::replyFinished);
-  const QUrl url = QUrl::fromUserInput("https://raw.githubusercontent.com/NibbleClassic/Website/master/version");
+  const QUrl url = QUrl::fromUserInput("https://raw.githubusercontent.com/Nibble-Network/NibbleWebsite/master/version");
   QNetworkRequest request(url);
   nam->get(request);
 }
@@ -90,8 +90,8 @@ void Updater::replyFinished (QNetworkReply *reply)
 
          if (ourVersion < remoteVersion) {
 
-             if (QMessageBox::warning(nullptr, QObject::tr("Crumbs Wallet Update"), QObject::tr("There's an update to the wallet available.\nWould you like to go to the download page now?"), QMessageBox::Ok, QMessageBox::Cancel) == QMessageBox::Ok) {
-                 QString link = "https://github.com/NibbleClassic/CrumbsDesktop/releases/latest";
+             if (QMessageBox::warning(nullptr, QObject::tr("Nibble Wallet Update"), QObject::tr("There's an update to the wallet available.\nWould you like to go to the download page now?"), QMessageBox::Ok, QMessageBox::Cancel) == QMessageBox::Ok) {
+                 QString link = "https://github.com/Nibble-Network/NibbleDesktop/releases/latest";
                  QDesktopServices::openUrl(QUrl(link));
              }
 
