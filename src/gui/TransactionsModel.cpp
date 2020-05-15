@@ -382,10 +382,10 @@ QVariant TransactionsModel::getUserRole(const QModelIndex& _index, int _role, Cr
     } else if (!transactionAddress.compare(WalletAdapter::instance().getAddress())) {
       return "Optimization";
     } else if(_transaction.totalAmount < 0) {
-      return "Sent XCR";
+      return "Sent NBXC";
     }
 
-    return "Received XCR";
+    return "Received NBXC";
   }
 
   case ROLE_HASH:
