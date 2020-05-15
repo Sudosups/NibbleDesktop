@@ -1087,4 +1087,4 @@ DISTFILES += \
     src/icons/tradeogre.png \
     src/images/logo-proper.png \
     src/images/qr.png
-RC_FILE = crumbs.rc
+RC_FILE = nibble.rc
