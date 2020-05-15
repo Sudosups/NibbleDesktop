@@ -25,18 +25,18 @@ jobs:
           BOOST_ROOT: ${{ env.BOOST_ROOT }}
         run: |
           $build_folder = "build"
-          $ccx_ver = "${{ github.ref }}" -replace '[refs/tags/v]'
-          $release_name = "ccx-desktop-win64-v$ccx_ver"
+          $nbxc_ver = "${{ github.ref }}" -replace '[refs/tags/v]'
+          $release_name = "nbxc-desktop-win64-v$nbxc_ver"
           $release_folder = "Release"
           $qt5_cmake = "${{ env.Qt5_Dir }}/lib/cmake" -replace '[/]', '\\'
           Remove-Item cryptonote -Recurse -ErrorAction Ignore
-          git clone https://github.com/ConcealNetwork/conceal-core cryptonote
+          git clone https://github.com/Sudosups/Nibble cryptonote
           $filecontent = Get-Content CMakeLists.txt
           $filecontent -replace '^set\(CMAKE_PREFIX_PATH.+',"set(CMAKE_PREFIX_PATH `"$($qt5_cmake)`")" | Set-Content CMakeLists.txt
           mkdir "$build_folder"
           cd "$build_folder"
           Start-Process cmake -ArgumentList "-G ""Visual Studio 16 2019"" -A x64",".." -NoNewWindow -Wait
-          Start-Process msbuild -ArgumentList "CONCEAL-GUI.sln","/p:Configuration=Release" -NoNewWindow -Wait
+          Start-Process msbuild -ArgumentList "NIBBLE-GUI.sln","/p:Configuration=Release" -NoNewWindow -Wait
           cd "$release_folder"
           Compress-Archive -Path *.exe -DestinationPath "$release_name.zip"
           $sha256 = (Get-FileHash "$release_name.zip").Hash
@@ -44,13 +44,13 @@ jobs:
           echo "::set-output name=sha256::${sha256}"
           echo "::set-output name=release_name::${release_name}.zip"
           echo "::set-output name=asset_path::${asset_path}"
-          echo "::set-output name=ccx_ver::${ccx_ver}"
+          echo "::set-output name=nbxc_ver::${nbxc_ver}"
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ steps.build.outputs.asset_path }}
-          name: Conceal Desktop v${{ steps.build.outputs.ccx_ver }}
+          name: Nibble Desktop v${{ steps.build.outputs.nbxc_ver }}
           body: |
             **${{ steps.build.outputs.release_name }}**
             ${{ steps.build.outputs.sha256 }}
