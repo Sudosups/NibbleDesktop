@@ -1445,7 +1445,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">XCR</string>
+         <string notr="true">NBXC</string>
         </property>
        </widget>
        <widget class="QLabel" name="m_tickerLabel1">
@@ -1471,7 +1471,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">XCR</string>
+         <string notr="true">NBXC</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_10">
@@ -1586,7 +1586,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">XCR</string>
+         <string notr="true">NBXC</string>
         </property>
        </widget>
        <widget class="QLabel" name="m_unlockedDeposits">
@@ -1670,7 +1670,7 @@ font-size: 14px;
 border: none;</string>
         </property>
         <property name="text">
-         <string notr="true">XCR</string>
+         <string notr="true">NBXC</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_25">
@@ -1924,7 +1924,7 @@ border: none;</string>
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
         </property>
        </widget>
-       <widget class="QLabel" name="m_xcrusd">
+       <widget class="QLabel" name="m_nbxcusd">
         <property name="geometry">
          <rect>
           <x>170</x>
@@ -2149,7 +2149,7 @@ text-align: left;
        </widget>
        <zorder>m_volume</zorder>
        <zorder>m_marketCap</zorder>
-       <zorder>m_xcrusd</zorder>
+       <zorder>m_nbxcusd</zorder>
        <zorder>label_12</zorder>
        <zorder>m_btcusd</zorder>
        <zorder>label_7</zorder>
@@ -4172,7 +4172,7 @@ border: none;</string>
 border: none;</string>
        </property>
        <property name="text">
-        <string notr="true">Available Balance: 0.000000 XCR</string>
+        <string notr="true">Available Balance: 0.000000 NBXC</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -4434,7 +4434,7 @@ QPushButton#m_cancelButton:hover {color: #fff; border: 1px solid #444; font-size
 border: none;</string>
        </property>
        <property name="text">
-        <string notr="true">Fee: 0.001000 XCR</string>
+        <string notr="true">Fee: 0.001000 NBXC</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -4597,7 +4597,7 @@ QPushButton#m_sendMessageButton:hover {color:#FFD700; ; border: 1px solid green;
 border: none;</string>
        </property>
        <property name="text">
-        <string notr="true">Fee: 0.001000 XCR</string>
+        <string notr="true">Fee: 0.001000 NBXC</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -5294,7 +5294,7 @@ text-align: left;
           <string notr="true">color: #ccc; font-size: 14px; font-weight: normal; border: none; font-family: 'Poppins';</string>
          </property>
          <property name="text">
-          <string>0.001000 XCR</string>
+          <string>0.001000 NBXC</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6067,7 +6067,7 @@ text-align: left;
 </string>
       </property>
       <property name="text">
-       <string>0.000000 XCR 0.00 USD</string>
+       <string>0.000000 NBXC 0.00 USD</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
