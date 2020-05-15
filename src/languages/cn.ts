@@ -751,7 +751,7 @@ Please wait...</source>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="2540"/>
-        <source>XCR/USD</source>
+        <source>NBXC/USD</source>
         <translation></translation>
     </message>
     <message>
@@ -1116,7 +1116,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="5701"/>
-        <source>0.001000 XCR</source>
+        <source>0.001000 NBXC</source>
         <translation></translation>
     </message>
     <message>
@@ -2455,8 +2455,8 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="335"/>
-        <source>■  If you send your public address to someone then they can send you XCR.</source>
-        <translation>如果您将公开的地址发送给别人，他们可以向您发送XCR。</translation>
+        <source>■  If you send your public address to someone then they can send you NBXC.</source>
+        <translation>如果您将公开的地址发送给别人，他们可以向您发送NBXC。</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
@@ -2570,8 +2570,8 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1002"/>
-        <source>seed phrase and access your XCR</source>
-        <translation>输入种子短语并访问你的XCR</translation>
+        <source>seed phrase and access your NBXC</source>
+        <translation>输入种子短语并访问你的NBXC</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1028"/>
