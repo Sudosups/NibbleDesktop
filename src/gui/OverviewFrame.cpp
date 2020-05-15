@@ -549,23 +549,23 @@ void OverviewFrame::pendingInvestmentBalanceUpdated(quint64 _balance)
 }
 
 /* Price data download complete */
-void OverviewFrame::onPriceFound(const QString &_btcxcr, const QString &_usdxcr, const QString &_usdbtc, const QString &_usdmarketcap, const QString &_usdvolume, const QString &_eurxcr, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume)
+void OverviewFrame::onPriceFound(const QString &_btcnbxc, const QString &_usdnbxc, const QString &_usdbtc, const QString &_usdmarketcap, const QString &_usdvolume, const QString &_eurnbxc, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume)
 {
   QString currentCurrency = Settings::instance().getCurrentCurrency();
 
   float total = 0;
   if (currentCurrency == "EUR")
   {
-    xcreur = _eurxcr.toFloat();
-  /*  m_ui->m_xcrusd->setText("€" + _eurxcr);*/
+    nbxceur = _eurnbxc.toFloat();
+  /*  m_ui->m_nbxcusd->setText("€" + _eurnbxc);*/
     m_ui->m_btcusd->setText("€" + _eurbtc);
   /* m_ui->m_marketCap->setText("€" + _eurmarketcap);*/
   /*  m_ui->m_volume->setText("€" + _eurvolume);*/
   }
   else
   {
-    xcrusd = _usdxcr.toFloat();
- /*   m_ui->m_xcrusd->setText("$" + _usdxcr);*/
+    nbxcusd = _usdnbxc.toFloat();
+ /*   m_ui->m_nbxcusd->setText("$" + _usdnbxc);*/
     m_ui->m_btcusd->setText("$" + _usdbtc);
   /*  m_ui->m_marketCap->setText("$" + _usdmarketcap); */
   /*  m_ui->m_volume->setText("$" + _usdvolume);*/
@@ -581,7 +581,7 @@ void OverviewFrame::onExchangeFound(QString &_exchange)
   exchangeName = _exchange;
 }
 
-/* Update the total portfolio in XCR and Fiat on the top left hand corner */
+/* Update the total portfolio in NBXC and Fiat on the top left hand corner */
 void OverviewFrame::updatePortfolio()
 {
   QString currentCurrency = Settings::instance().getCurrentCurrency();
@@ -589,13 +589,13 @@ void OverviewFrame::updatePortfolio()
   float total = 0;
   if (currentCurrency == "EUR")
   {
-    total = xcreur * (float)OverviewFrame::totalBalance;
+    total = nbxceur * (float)OverviewFrame::totalBalance;
   }
   else
   {
-    total = xcrusd * (float)OverviewFrame::totalBalance;
+    total = nbxcusd * (float)OverviewFrame::totalBalance;
   }
-  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " XCR  ");}/* + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
+  m_ui->m_totalPortfolioLabelUSD->setText(tr("TOTAL") + " " + CurrencyAdapter::instance().formatAmount(OverviewFrame::totalBalance) + " NBXC  ");}/* + CurrencyAdapter::instance().formatCurrencyAmount(total / 10000) + " " + Settings::instance().getCurrentCurrency());
 }
 
 /* Banking menu button clicked */
@@ -810,9 +810,9 @@ void OverviewFrame::onAddressFound(const QString &_address)
   {
     OverviewFrame::remote_node_fee_address = _address;
     Settings::instance().setCurrentFeeAddress(_address);
-    m_ui->m_sendFee->setText("Fee: 0.011000 XCR");
-    m_ui->m_messageFee->setText("Fee: 0.011000 XCR");
-    m_ui->m_depositFeeLabel->setText("0.011000 XCR");
+    m_ui->m_sendFee->setText("Fee: 0.011000 NBXC");
+    m_ui->m_messageFee->setText("Fee: 0.011000 NBXC");
+    m_ui->m_depositFeeLabel->setText("0.011000 NBXC");
   }
 }
 
@@ -1132,7 +1132,7 @@ void OverviewFrame::sendMessageClicked()
     /* Is it a Nibble ID? */
     if (CurrencyAdapter::instance().isValidOpenAliasAddress(address))
     {
-      /* Parse the record and set address to the actual XCR address */
+      /* Parse the record and set address to the actual NBXC address */
       std::vector<std::string> records;
       if (!Common::fetch_dns_txt(address.toStdString(), records))
       {
