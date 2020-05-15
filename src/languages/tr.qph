@@ -253,8 +253,8 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source>(minimum of 1 XCR)</source>
-    <target>(en az 1 XCR)</target>
+    <source>(minimum of 1 NBXC)</source>
+    <target>(en az 1 NBXC)</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 week, maximum 52 weeks)</source>
@@ -329,7 +329,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source> XCR</source>
+    <source> NBXC</source>
     <target></target>
 </phrase>
 <phrase>
@@ -337,8 +337,8 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source>(minimum of 50,000 XCR)</source>
-    <target>(en az 50.000 XCR)</target>
+    <source>(minimum of 50,000 NBXC)</source>
+    <target>(en az 50.000 NBXC)</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 quarter, maximum 20 quarters)</source>
@@ -975,8 +975,8 @@ p, li { white-space: pre-wrap; }
     <target>YATIRIMLAR</target>
 </phrase>
 <phrase>
-    <source>XCR</source>
-    <target>XCR</target>
+    <source>NBXC</source>
+    <target>NBXC</target>
 </phrase>
 <phrase>
     <source>VOLUME</source>
@@ -1228,8 +1228,8 @@ p, li { white-space: pre-wrap; }
     <target>KRİPTO MESAJ (İSTEĞE BAĞLI)</target>
 </phrase>
 <phrase>
-    <source>You can send an optional message along with your transfer. There is a 0.000010 XCR fee per character.</source>
-    <target>Transferinizle birlikte isteğe bağlı bir mesaj gönderebilirsiniz. Karakter başına 0.000010 XCR ücret kesilir.</target>
+    <source>You can send an optional message along with your transfer. There is a 0.000010 NBXC fee per character.</source>
+    <target>Transferinizle birlikte isteğe bağlı bir mesaj gönderebilirsiniz. Karakter başına 0.000010 NBXC ücret kesilir.</target>
 </phrase>
 <phrase>
     <source>Some exchanges and other services require that a Payment ID is included when sending funds.</source>
@@ -2109,8 +2109,8 @@ Are you sure?</source>
     <target>bir seed ve bir cüzdan adresin oluşturursunuz.</target>
 </phrase>
 <phrase>
-    <source>■  If you send your public address to someone then they can send you XCR.</source>
-    <target>■ Cüzdan adresinizi birisine gönderirseniz size XCR gönderebilirler.</target>
+    <source>■  If you send your public address to someone then they can send you NBXC.</source>
+    <target>■ Cüzdan adresinizi birisine gönderirseniz size NBXC gönderebilirler.</target>
 </phrase>
 <phrase>
     <source>■  The Nibble Developers have no access to your password, your keys, </source>
@@ -2201,8 +2201,8 @@ Are you sure?</source>
     <target>gizli bir seed ifadesi oluşturun</target>
 </phrase>
 <phrase>
-    <source>seed phrase and access your XCR</source>
-    <target>seed ifadesi ile içe aktarın ve XCR&apos;lerinize erişin</target>
+    <source>seed phrase and access your NBXC</source>
+    <target>seed ifadesi ile içe aktarın ve NBXC&apos;lerinize erişin</target>
 </phrase>
 <phrase>
     <source>and access your assets</source>

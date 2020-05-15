@@ -767,7 +767,7 @@ Lütfen bekle...</translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="2750"/>
-        <source>XCR/USD</source>
+        <source>NBXC/USD</source>
         <translation></translation>
     </message>
     <message>
@@ -1148,7 +1148,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6064"/>
-        <source>0.001000 XCR</source>
+        <source>0.001000 NBXC</source>
         <translation></translation>
     </message>
     <message>
@@ -1236,7 +1236,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6837"/>
-        <source>0.000000 XCR 0.00 USD</source>
+        <source>0.000000 NBXC 0.00 USD</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2290,8 +2290,8 @@ Emin misiniz?</translation>
     <name>WalletGui::RecentTransactionDelegate</name>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="47"/>
-        <source>Received XCR</source>
-        <translation>Alınan XCR</translation>
+        <source>Received NBXC</source>
+        <translation>Alınan NBXC</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="50"/>
@@ -2300,8 +2300,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="54"/>
-        <source>Send XCR</source>
-        <translation>Gönderilen XCR</translation>
+        <source>Send NBXC</source>
+        <translation>Gönderilen NBXC</translation>
     </message>
     <message>
         <location filename="src/gui/TransactionFrame.cpp" line="58"/>
@@ -2528,8 +2528,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="335"/>
-        <source>■  If you send your public address to someone then they can send you XCR.</source>
-        <translation>■ Cüzdan adresinizi birisine gönderirseniz size XCR gönderebilirler.</translation>
+        <source>■  If you send your public address to someone then they can send you NBXC.</source>
+        <translation>■ Cüzdan adresinizi birisine gönderirseniz size NBXC gönderebilirler.</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
@@ -2643,8 +2643,8 @@ Emin misiniz?</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1002"/>
-        <source>seed phrase and access your XCR</source>
-        <translation>seed ifadesi ile içe aktarın ve XCR&apos;lerinize erişin</translation>
+        <source>seed phrase and access your NBXC</source>
+        <translation>seed ifadesi ile içe aktarın ve NBXC&apos;lerinize erişin</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="1028"/>
