@@ -332,7 +332,7 @@ font-size: 14px;</string>
 font-size: 14px;</string>
        </property>
        <property name="text">
-        <string>■  If you send your public address to someone then they can send you XCR.</string>
+        <string>■  If you send your public address to someone then they can send you NBXC.</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_13">
@@ -999,7 +999,7 @@ font-size: 14px;</string>
 font-size: 14px;</string>
        </property>
        <property name="text">
-        <string>seed phrase and access your XCR</string>
+        <string>seed phrase and access your NBXC</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
