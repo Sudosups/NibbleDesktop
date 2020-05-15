@@ -17,13 +17,13 @@ Giving our users the best from both worlds, a simple to use platform, messaging 
 Get your nibble on!
 
 ## Resources
-- Web: https://nibble-nibble.com/crumbs
-- GitHub: https://github.com/NibbleClassic
+- Web: https://nibble-nibble.com
+- GitHub: https://github.com/Nibble-Network
 - Discord: https://discordapp.com/invite/rqYhADW
 - Twitter: @NibbleClassic
 
 
-## Compiling Crumbs from source
+## Compiling Nibble from source
 
 ### Linux / Ubuntu
 
@@ -44,11 +44,11 @@ Alternatively, it may be possible to install them using a package manager.
 To acquire the source via git and build the release version, run the following commands:
 
 - `cd ~`
-- `git clone https://github.com/NibbleClassic/crumbs-desktop`
+- `git clone https://github.com/Nibble-Network/NibbleDesktop`
 - `cd crumbs-wallet`
-- `git clone https://github.com/NibbleClassic/crumbs.git cryptonote`
+- `git clone https://github.com/Nibble-Network/nibble.git cryptonote`
 - `make build-release`
-- `mkdir bin && mv build/release/CRUMBS-GUI bin/`
+- `mkdir bin && mv build/release/NIBBLE-GUI bin/`
 - `make clean`
 
 If the build is successful the binaries will be in the bin folder.
@@ -67,14 +67,14 @@ If the build is successful the binaries will be in the bin folder.
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017' or run "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsMSBuildCmd.bat" from any command prompt.
 - Edit the CMakeLists.txt file and set the path to QT cmake folder. For example: set(CMAKE_PREFIX_PATH "C:\\Qt\\5.11.0\\msvc2017_64\\lib\\cmake\\").
-- `git clone https://github.com/NibbleClassic/crumbs`
-- `git clone https://github.com/NibbleClassic/crumbs-wallet`
-- Copy the contents of the crumbs-core folder into crumbs-wallet\cryptonote
-- `cd crumbs-wallet`
+- `git clone https://github.com/Nibble-Network/nibble`
+- `git clone https://github.com/Nibble-Network/NibbleDesktop`
+- Copy the contents of the nibble-core folder into nibble-wallet\cryptonote
+- `cd nibble-wallet`
 - `mkdir build`
 - `cd build`
 - `cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_67_0 ..` (Or your boost installed dir.)
-- `msbuild CRUMBS-GUI.sln /p:Configuration=Release`
+- `msbuild NIBBLE-GUI.sln /p:Configuration=Release`
 
 If the build is successful the binaries will be in the Release folder.
 
