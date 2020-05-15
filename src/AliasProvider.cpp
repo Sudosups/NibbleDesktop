@@ -17,9 +17,9 @@
 
 namespace WalletGui {
 
-Q_DECL_CONSTEXPR char ALIAS_OBJECT_NAME[] = "Crumbs";
-Q_DECL_CONSTEXPR char ALIAS_NAME_TAG[] = "crumbs";
-Q_DECL_CONSTEXPR char ALIAS_ADDRESS_TAG[] = "XCR";
+Q_DECL_CONSTEXPR char ALIAS_OBJECT_NAME[] = "Nibble";
+Q_DECL_CONSTEXPR char ALIAS_NAME_TAG[] = "nibble";
+Q_DECL_CONSTEXPR char ALIAS_ADDRESS_TAG[] = "NBXC";
 
 AliasProvider::AliasProvider(QObject *parent) : QObject(parent), m_networkManager() {
 }
