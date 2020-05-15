@@ -1143,7 +1143,7 @@ border: none;
 text-align: left;</string>
         </property>
         <property name="text">
-         <string>Crumbs</string>
+         <string>Nibble</string>
         </property>
        </widget>
        <widget class="QPushButton" name="m_stexButton">
@@ -3823,7 +3823,8 @@ font-family: Poppins;
 border-radius: 5px;</string>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT CRUMBS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network. Together, NibbleClassic and Crumbs enable deposits and investments, untraceable and anonymous messaging and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.nibble-nibble.com/crumbs&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;https://www.nibble-nibble.com/crumbs&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;p&gt;&lt;a href=&quot;https://www.qt.io/download-open-source&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;https://www.qt.io/download-open-source&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT NIBBLE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nibble is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency. All your NBXC transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.Nibble is open-source, always has been and always will be. This latest edition of Nibble, has been created from a merger of projects - Nibble Classic and Crumbs
+Giving our users the best from both worlds, a simple to use platform, messaging ability, deposits and rewards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.nibble-nibble.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;https://www.nibble-nibble.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;p&gt;&lt;a href=&quot;https://www.qt.io/download-open-source&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008000;&quot;&gt;https://www.qt.io/download-open-source&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="textFormat">
          <enum>Qt::RichText</enum>
@@ -3911,7 +3912,7 @@ font-size: 11px;
 font-family: Poppins;</string>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is an open source project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nibble is an open source project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Nibble is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="textFormat">
          <enum>Qt::RichText</enum>
@@ -5558,7 +5559,7 @@ p, li { white-space: pre-wrap; }
        </widget>
       </widget>
      </widget>
-     <widget class="QLabel" name="m_myCrumbsWalletTitle">
+     <widget class="QLabel" name="m_myNibbleWalletTitle">
       <property name="geometry">
        <rect>
         <x>209</x>
@@ -5595,7 +5596,7 @@ font-family: Poppins;
 font-weight: normal;</string>
       </property>
       <property name="text">
-       <string>CRUMBS</string>
+       <string>NIBBLE</string>
       </property>
      </widget>
      <widget class="QTextBrowser" name="m_statusBox">
@@ -6102,7 +6103,7 @@ text-align: left;</string>
      <zorder>m_qrcodebutton</zorder>
      <zorder>m_copyAddressButton</zorder>
      <zorder>m_currentWalletTitle</zorder>
-     <zorder>m_myCrumbsWalletTitle</zorder>
+     <zorder>m_myNibbleWalletTitle</zorder>
      <zorder>m_statusBox</zorder>
      <zorder>leftMenu</zorder>
      <zorder>line</zorder>
