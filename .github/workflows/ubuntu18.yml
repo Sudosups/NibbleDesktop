@@ -23,7 +23,7 @@ jobs:
           release_name=nbxc-desktop-ubuntu-18.04-v"$nbxc_ver"
           app_name="NIBBLE-GUI"
           rm -rf cryptonote
-          git clone https://github.com/Sudosups/Nibble cryptonote
+          git clone https://github.com/Nibble-Network/Nibble.git cryptonote
           mkdir -p "$build_folder"
           cd "$build_folder"
           cmake ../..
