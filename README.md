@@ -45,7 +45,7 @@ To acquire the source via git and build the release version, run the following c
 
 - `cd ~`
 - `git clone https://github.com/Nibble-Network/NibbleDesktop`
-- `cd crumbs-wallet`
+- `cd nibble-wallet`
 - `git clone https://github.com/Nibble-Network/nibble.git cryptonote`
 - `make build-release`
 - `mkdir bin && mv build/release/NIBBLE-GUI bin/`
