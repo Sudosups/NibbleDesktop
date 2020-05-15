@@ -64,8 +64,8 @@ private:
   ExchangeProvider *m_exchangeProvider;
   QString remote_node_fee_address;
   quint64 totalBalance = 0;
-  float xcrusd = 0;
-  float xcreur = 0;
+  float nbxcusd = 0;
+  float nbxceur = 0;
   QString wallet_address;
   quint64 remote_node_fee;
   quint64 m_actualBalance = 0;
@@ -77,7 +77,7 @@ private:
   QString exchangeName = "";
 
 
-  void onPriceFound(const QString& _btcxcr, const QString& _usdxcr, const QString& _usdbtc, const QString& _usdmarketcap, const QString& _usdvolume, const QString &_eurxcr, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume);
+  void onPriceFound(const QString& _btcnbxc, const QString& _usdnbxc, const QString& _usdbtc, const QString& _usdmarketcap, const QString& _usdvolume, const QString &_eurnbxc, const QString &_eurbtc, const QString &_eurmarketcap, const QString &_eurvolume);
   void onExchangeFound(QString &_exchange);
   void transactionsInserted(const QModelIndex &_parent, int _first, int _last);
   void transactionsRemoved(const QModelIndex &_parent, int _first, int _last);
