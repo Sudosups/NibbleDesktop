@@ -241,7 +241,7 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
   /* Pull the chart */
   QNetworkAccessManager *nam = new QNetworkAccessManager(this);
   connect(nam, &QNetworkAccessManager::finished, this, &OverviewFrame::downloadFinished);
-  const QUrl url = QUrl::fromUserInput("https://i.imgur.com/rh2ppG6.png&width=511&height=191");
+  const QUrl url = QUrl::fromUserInput("https://i.imgur.com/584pQ5v.png&width=287&height=191");
   QNetworkRequest request(url);
   nam->get(request);
 
