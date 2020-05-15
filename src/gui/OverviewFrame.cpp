@@ -1721,7 +1721,7 @@ void OverviewFrame::telegramClicked()
 
 void OverviewFrame::githubClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://github.com/NibbleClassic", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://github.com/Nibble-Network", QUrl::TolerantMode));
 }
 
 void OverviewFrame::redditClicked()
