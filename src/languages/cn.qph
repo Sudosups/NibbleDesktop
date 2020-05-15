@@ -253,8 +253,8 @@ p, li { white-space: pre-wrap; }
     <target>利息标签</target>
 </phrase>
 <phrase>
-    <source>(minimum of 1 XCR)</source>
-    <target>最少1个XCR</target>
+    <source>(minimum of 1 NBXC)</source>
+    <target>最少1个NBXC</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 week, maximum 52 weeks)</source>
@@ -329,7 +329,7 @@ p, li { white-space: pre-wrap; }
     <target></target>
 </phrase>
 <phrase>
-    <source> XCR</source>
+    <source> NBXC</source>
     <target></target>
 </phrase>
 <phrase>
@@ -337,8 +337,8 @@ p, li { white-space: pre-wrap; }
     <target>投资利息</target>
 </phrase>
 <phrase>
-    <source>(minimum of 50,000 XCR)</source>
-    <target>最少50,000个XCR</target>
+    <source>(minimum of 50,000 NBXC)</source>
+    <target>最少50,000个NBXC</target>
 </phrase>
 <phrase>
     <source>(minimum term of 1 quarter, maximum 20 quarters)</source>
@@ -975,7 +975,7 @@ p, li { white-space: pre-wrap; }
     <target>投资</target>
 </phrase>
 <phrase>
-    <source>XCR</source>
+    <source>NBXC</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1229,8 +1229,8 @@ p, li { white-space: pre-wrap; }
     <target>加密消息（可选）</target>
 </phrase>
 <phrase>
-    <source>You can send an optional message along with your transfer. There is a 0.000010 XCR fee per character.</source>
-    <target>您可以在传输时发送可选消息。每字符收费0.000010 xcr。</target>
+    <source>You can send an optional message along with your transfer. There is a 0.000010 NBXC fee per character.</source>
+    <target>您可以在传输时发送可选消息。每字符收费0.000010 NBXC。</target>
 </phrase>
 <phrase>
     <source>Some exchanges and other services require that a Payment ID is included when sending funds.</source>
@@ -2111,8 +2111,8 @@ Are you sure?</source>
     <target>种子和钱包地址</target>
 </phrase>
 <phrase>
-    <source>■  If you send your public address to someone then they can send you XCR.</source>
-    <target>如果您将公开的地址发送给别人，他们可以向您发送XCR。</target>
+    <source>■  If you send your public address to someone then they can send you NBXC.</source>
+    <target>如果您将公开的地址发送给别人，他们可以向您发送NBXC。</target>
 </phrase>
 <phrase>
     <source>■  The Nibble Developers have no access to your password, your keys, </source>
@@ -2203,8 +2203,8 @@ Are you sure?</source>
     <target>密钥种子短语</target>
 </phrase>
 <phrase>
-    <source>seed phrase and access your XCR</source>
-    <target>输入种子短语并访问你的XCR</target>
+    <source>seed phrase and access your NBXC</source>
+    <target>输入种子短语并访问你的NBXC</target>
 </phrase>
 <phrase>
     <source>and access your assets</source>
