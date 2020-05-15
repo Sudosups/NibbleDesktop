@@ -5,7 +5,7 @@
     <target>Hakkında</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Nibble is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency. All your NBXC transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.Nibble is open-source, always has been and always will be. This latest edition of Nibble, has been created from a merger of projects - Nibble Classic and Crumbs. Giving our users the best from both worlds, a simple to use platform, messaging ability, deposits and rewards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target>Conceal.Network, %100 açık kaynak koduyla çalışan, finansal kurumların bir müdahalesi olmadan faiz ödeyen, mevduat ve yatırım programlarına sahip olan, merkezi olmayan bir blok zinciri bankasıdır. Conceal.Network, izlenemeyen ve anonim mesajlaşmalar ve para transferi için güvenli bir yol sağlar. Dağıtık bir muhasebe defteri kullanılarak, gönderen ve alıcı gizli tutulur.</target>
 </phrase>
 <phrase>
@@ -13,8 +13,8 @@
     <target>KAPAT</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Crumbs Cüzdanım</target>
+    <source>The Nibble Wallet</source>
+    <target>Nibble Cüzdanım</target>
 </phrase>
 <phrase>
     <source>Select address</source>
@@ -353,8 +353,8 @@ p, li { white-space: pre-wrap; }
     <target>Yasal Uyarı</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-    <target>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs, açık kaynaklı bir deneysel projedir, yani arkasında herhangi bir şirket yoktur. Bu proje topluluk tarafından desteklenmektedir, yani kendini projeye adamış bir ekibe sahiptir, projeye herkes katkıda bulunabilir ve bu çalışmalar gönüllülük esasına dayanır ve belirli bir merkezi bulunmamaktadır. &lt;/p&gt;&lt;p&gt;Crumbs, insanlığın yararına olacağı umuduyla geliştirilmiştir, ancak belirli bir amaca yönelik uygun olacağının garantisi veya ticari bir garantisi bulunmamaktadır.&lt;/p&gt;&lt;p&gt;Telif Hakkı Uyarısı &lt;/p&gt;&lt;p&gt;Bu yazılımın ve ilgili dokümantasyon dosyalarının (&amp;quot;Yazılım&amp;quot;) bir kopyasını alan herhangi bir kişinin, ücretsiz olarak, kısıtlama olmaksızın, aşağıda yer alan şartlara bağlı olarak, Yazılımın kopyalarını kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya satma haklarını sınırlandırmaksızın Yazılımı dağıtmasına ve Yazılımın sunulacağı insanların da bu haklara sahip olmalarına izin verilir: &lt;/p&gt;&lt;p&gt;Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dâhil edilecektir. &lt;/p&gt;&lt;p&gt;YAZILIM, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL EDİLMEME GARANTİLERİ DÂHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN, &amp;quot;OLDUĞU GİBİ&amp;quot; SAĞLANIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, HİÇBİR KOŞULDA, HERHANGİ BİR SÖZLEŞMEDEN, HAKSIZ FİİLDEN VEYA YAZILIMIN KULLANIMINDAN KAYNAKLANAN VEYA KAYNAKLANMAYAN YA DA YAZILIM İLE İLİŞKİLİ OLAN HERHANGİ BİR DURUMDAN KAYNAKLANAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN SORUMLU TUTULAMAZ.&lt;/p&gt;&lt;p&gt;Telif hakkı saklıdır 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nibble is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Nibble is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <target>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nibble, açık kaynaklı bir deneysel projedir, yani arkasında herhangi bir şirket yoktur. Bu proje topluluk tarafından desteklenmektedir, yani kendini projeye adamış bir ekibe sahiptir, projeye herkes katkıda bulunabilir ve bu çalışmalar gönüllülük esasına dayanır ve belirli bir merkezi bulunmamaktadır. &lt;/p&gt;&lt;p&gt;Nibble, insanlığın yararına olacağı umuduyla geliştirilmiştir, ancak belirli bir amaca yönelik uygun olacağının garantisi veya ticari bir garantisi bulunmamaktadır.&lt;/p&gt;&lt;p&gt;Telif Hakkı Uyarısı &lt;/p&gt;&lt;p&gt;Bu yazılımın ve ilgili dokümantasyon dosyalarının (&amp;quot;Yazılım&amp;quot;) bir kopyasını alan herhangi bir kişinin, ücretsiz olarak, kısıtlama olmaksızın, aşağıda yer alan şartlara bağlı olarak, Yazılımın kopyalarını kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya satma haklarını sınırlandırmaksızın Yazılımı dağıtmasına ve Yazılımın sunulacağı insanların da bu haklara sahip olmalarına izin verilir: &lt;/p&gt;&lt;p&gt;Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dâhil edilecektir. &lt;/p&gt;&lt;p&gt;YAZILIM, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL EDİLMEME GARANTİLERİ DÂHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN, &amp;quot;OLDUĞU GİBİ&amp;quot; SAĞLANIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, HİÇBİR KOŞULDA, HERHANGİ BİR SÖZLEŞMEDEN, HAKSIZ FİİLDEN VEYA YAZILIMIN KULLANIMINDAN KAYNAKLANAN VEYA KAYNAKLANMAYAN YA DA YAZILIM İLE İLİŞKİLİ OLAN HERHANGİ BİR DURUMDAN KAYNAKLANAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN SORUMLU TUTULAMAZ.&lt;/p&gt;&lt;p&gt;Telif hakkı saklıdır 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </target>
 </phrase>
 <phrase>
@@ -951,8 +951,8 @@ p, li { white-space: pre-wrap; }
     <target>Çekilebilir</target>
 </phrase>
 <phrase>
-    <source>CRUMBS</source>
-    <target>CRUMBS CÜZDANI</target>
+    <source>NIBBLE</source>
+    <target>NIBBLE CÜZDANI</target>
 </phrase>
 <phrase>
     <source>currentWallet</source>
@@ -1043,8 +1043,8 @@ p, li { white-space: pre-wrap; }
     <target>CÜZDAN YÜKLENİYOR</target>
 </phrase>
 <phrase>
-    <source>Crumbs Wallet Update</source>
-    <target>Crumbs Cüzdan Güncellemesi</target>
+    <source>Nibble Wallet Update</source>
+    <target>Nibble Cüzdan Güncellemesi</target>
 </phrase>
 <phrase>
     <source>There is an update to the wallet available.
@@ -1396,8 +1396,8 @@ p, li { white-space: pre-wrap; }
     <target>Güncelleme kontrol edilemiyor</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Crumbs Cüzdanım</target>
+    <source>The Nibble Wallet</source>
+    <target>Nibble Cüzdanım</target>
 </phrase>
 <phrase>
     <source>Invalid address</source>
@@ -1809,7 +1809,7 @@ Are you sure?</source>
     <target>SENKRONIZE EDILIYOR</target>
 </phrase>
 <phrase>
-    <source>About Crumbs</source>
+    <source>About Nibble</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1909,7 +1909,7 @@ Are you sure?</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>Failed to lookup Crumbs ID</source>
+    <source>Failed to lookup Nibble ID</source>
     <target></target>
 </phrase>
 <phrase>
@@ -2069,28 +2069,28 @@ Are you sure?</source>
     <target></target>
 </phrase>
 <phrase>
-    <source>WELCOME TO THE CRUMBS WALLET</source>
-    <target>CRUMBS CÜZDANINA HOŞ GELDİNİZ</target>
+    <source>WELCOME TO THE NIBBLE WALLET</source>
+    <target>NIBBLE CÜZDANINA HOŞ GELDİNİZ</target>
 </phrase>
 <phrase>
-    <source>■  Crumbs is a decentralized reward system.</source>
-    <target>■ Crumbs, merkeziyetsiz bir blok zinciri bankasıdır.</target>
+    <source>■  Nibble is a decentralized reward system.</source>
+    <target>■ Nibble, merkeziyetsiz bir blok zinciri bankasıdır.</target>
 </phrase>
 <phrase>
-    <source>■  The Crumbs Wallet is a free, open-source interface.</source>
-    <target>■ Crumbs Cüzdanı ücretsiz, açık kaynak kodlu bir arayüzdür.</target>
+    <source>■  The Nibble Wallet is a free, open-source interface.</source>
+    <target>■ Nibble Cüzdanı ücretsiz, açık kaynak kodlu bir arayüzdür.</target>
 </phrase>
 <phrase>
-    <source>■  The wallet allows access to all Crumbs services.</source>
-    <target>■ Cüzdan, tüm Crumbs hizmetlerine erişmenizi sağlar.</target>
+    <source>■  The wallet allows access to all Nibble services.</source>
+    <target>■ Cüzdan, tüm Nibble hizmetlerine erişmenizi sağlar.</target>
 </phrase>
 <phrase>
     <source>■  You control the private keys to your funds.</source>
     <target>■ Fonlarınıza erişebileceğiniz private key&apos;lerin kontrolü sizdedir.</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Crumbs Cüzdanım</target>
+    <source>The Nibble Wallet</source>
+    <target>Nibble Cüzdanım</target>
 </phrase>
 <phrase>
     <source>NEXT</source>
@@ -2114,11 +2114,11 @@ Are you sure?</source>
 </phrase>
 <phrase>
     <source>■  The Nibble Developers have no access to your password, your keys, </source>
-    <target>■ Crumbs geliştiricileri şifrenize, key&apos;lerinize,</target>
+    <target>■ Nibble geliştiricileri şifrenize, key&apos;lerinize,</target>
 </phrase>
 <phrase>
-    <source>How does the Crumbs Wallet work?</source>
-    <target>Crumbs Cüzdanı nasıl çalışır?</target>
+    <source>How does the Nibble Wallet work?</source>
+    <target>Nibble Cüzdanı nasıl çalışır?</target>
 </phrase>
 <phrase>
     <source>■  NEVER share your seed, keys, or wallet file with anyone.</source>
