@@ -610,7 +610,7 @@ void OverviewFrame::bankingClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myCrumbsWalletTitle->setText("REWARDS");
+    m_ui->m_myNibbleWalletTitle->setText("REWARDS");
     m_ui->bankingBox->raise();
   }
   else
@@ -622,14 +622,14 @@ void OverviewFrame::bankingClicked()
 void OverviewFrame::transactionHistoryClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myCrumbsWalletTitle->setText("TRANSACTIONS");
+  m_ui->m_myNibbleWalletTitle->setText("TRANSACTIONS");
   m_ui->transactionsBox->raise();
 }
 
 void OverviewFrame::dashboardClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myCrumbsWalletTitle->setText("CRUMBS");
+  m_ui->m_myNibbleWalletTitle->setText("NIBBLE");
   m_ui->overviewBox->raise();
   m_ui->m_newTransferButton->show();
   m_ui->m_newMessageButton->show();
@@ -638,7 +638,7 @@ void OverviewFrame::dashboardClicked()
 void OverviewFrame::aboutClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myCrumbsWalletTitle->setText("ABOUT");
+  m_ui->m_myNibbleWalletTitle->setText("ABOUT");
   m_ui->aboutBox->raise();
   m_ui->m_newTransferButton->show();
   m_ui->m_newMessageButton->show();
@@ -647,7 +647,7 @@ void OverviewFrame::aboutClicked()
 void OverviewFrame::settingsClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myCrumbsWalletTitle->setText("WALLET SETTINGS");
+  m_ui->m_myNibbleWalletTitle->setText("WALLET SETTINGS");
   m_ui->settingsBox->raise();
 }
 
@@ -659,7 +659,7 @@ void OverviewFrame::qrCodeClicked()
 void OverviewFrame::inboxClicked()
 {
   m_ui->darkness->hide();
-  m_ui->m_myCrumbsWalletTitle->setText("INBOX");
+  m_ui->m_myNibbleWalletTitle->setText("INBOX");
   m_ui->messageBox->raise();
 }
 
@@ -683,7 +683,7 @@ void OverviewFrame::newTransferClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myCrumbsWalletTitle->setText("SEND FUNDS");
+    m_ui->m_myNibbleWalletTitle->setText("SEND FUNDS");
     m_ui->sendBox->raise();
     OverviewFrame::fromPay = true;
   }
@@ -703,7 +703,7 @@ void OverviewFrame::newMessageClicked()
 
   if (walletSynced == true)
   {
-    m_ui->m_myCrumbsWalletTitle->setText("NEW MESSAGE");
+    m_ui->m_myNibbleWalletTitle->setText("NEW MESSAGE");
     m_ui->newMessageBox->raise();
     OverviewFrame::fromPay = false;
   }
@@ -784,13 +784,13 @@ void OverviewFrame::setAddress(const QString &_address)
   if (OverviewFrame::fromPay == true)
   {
     m_ui->m_addressEdit->setText(_address);
-    m_ui->m_myCrumbsWalletTitle->setText("SEND FUNDS");
+    m_ui->m_myNibbleWalletTitle->setText("SEND FUNDS");
     m_ui->sendBox->raise();
   }
   else
   {
     m_ui->m_addressMessageEdit->setText(_address);
-    m_ui->m_myCrumbsWalletTitle->setText("SEND MESSAGE");
+    m_ui->m_myNibbleWalletTitle->setText("SEND MESSAGE");
     m_ui->newMessageBox->raise();
   }
 }
@@ -881,14 +881,14 @@ void OverviewFrame::sendFundsClicked()
 
   try
   {
-    /* Is it a Crumbs ID? */
+    /* Is it a Nibble ID? */
     if (CurrencyAdapter::instance().isValidOpenAliasAddress(address))
     {
-      /* Parse the record and set address to the actual XCR address */
+      /* Parse the record and set address to the actual NBXC address */
       std::vector<std::string> records;
       if (!Common::fetch_dns_txt(address.toStdString(), records))
       {
-        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Crumbs ID"), QtCriticalMsg));
+        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Nibble ID"), QtCriticalMsg));
       }
       std::string realAddress;
       for (const auto &record : records)
@@ -904,7 +904,7 @@ void OverviewFrame::sendFundsClicked()
 
   catch (std::exception &)
   {
-    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Crumbs ID"), QtCriticalMsg));
+    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Nibble ID"), QtCriticalMsg));
     return;
   }
 
@@ -1027,7 +1027,7 @@ bool OverviewFrame::isValidPaymentId(const QByteArray &_paymentIdString)
 /* Open address book */
 void OverviewFrame::addressBookClicked()
 {
-  m_ui->m_myCrumbsWalletTitle->setText("ADDRESS BOOK");
+  m_ui->m_myNibbleWalletTitle->setText("ADDRESS BOOK");
   m_ui->addressBookBox->raise();
 }
 
@@ -1129,14 +1129,14 @@ void OverviewFrame::sendMessageClicked()
 
   try
   {
-    /* Is it a Crumbs ID? */
+    /* Is it a Nibble ID? */
     if (CurrencyAdapter::instance().isValidOpenAliasAddress(address))
     {
       /* Parse the record and set address to the actual XCR address */
       std::vector<std::string> records;
       if (!Common::fetch_dns_txt(address.toStdString(), records))
       {
-        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Crumbs ID"), QtCriticalMsg));
+        QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Failed to lookup Nibble ID"), QtCriticalMsg));
       }
       std::string realAddress;
       for (const auto &record : records)
@@ -1152,7 +1152,7 @@ void OverviewFrame::sendMessageClicked()
 
   catch (std::exception &)
   {
-    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Crumbs ID"), QtCriticalMsg));
+    QCoreApplication::postEvent(&MainWindow::instance(), new ShowMessageEvent(tr("Could not check Nibble ID"), QtCriticalMsg));
     return;
   }
 
@@ -1736,7 +1736,7 @@ void OverviewFrame::mediumClicked()
 
 void OverviewFrame::hotbitClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com/crumbs", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com", QUrl::TolerantMode));
 }
 
 void OverviewFrame::stexClicked()
@@ -1756,7 +1756,7 @@ void OverviewFrame::qtradeClicked()
 
 void OverviewFrame::helpClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com/crumbs", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://www.nibble-nibble.com", QUrl::TolerantMode));
 }
 
 /* Initiate a password prompt meant for critical tasks like sending funds etc */
