@@ -1,19 +1,18 @@
 
 
-# Crumbs Desktop (GUI Wallet)
-Latest Release: v1.0.2
+# Nibble Desktop (GUI Wallet)
+Latest Release: v2.0
 
 Maintained by The Nibble Developers.
 
 ## Information
-Crumbs is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency.
-What's a crumb? A nibble is half a byte or 4 bits. A crumb is half a nibble, or 2 bits.
+Nibble is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency.
 
-Crumbs is part of The Nibble Network and is accessible by anyone in the world.Together, NibbleClassic and Crumbs enable deposits and investments, untraceable and anonymous messaging and a secure way to transfer funds.
+All your NBXC transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.
 
-Deposit your Crumbs as an investment for higher returns, or exchange them for Nibbles in our treasury eco system.
-
-Crumbs is open-source, community driven and truly decentralized. No one owns it, everyone can take part.
+Nibble is open-source, always has been and always will be. 
+This latest edition of Nibble, has been created from a merger of projects - Nibble Classic & Crumbs
+Giving our users the best from both worlds, a simple to use platform, messaging ability, deposits & rewards.
 
 Get your nibble on!
 
