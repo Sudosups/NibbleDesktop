@@ -975,12 +975,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="4259"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT CRUMBS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ABOUT NIBBLE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nibble is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency. All your NBXC transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.Nibble is open-source, always has been and always will be. This latest edition of Nibble, has been created from a merger of projects - Nibble Classic and Crumbs.
+Giving our users the best from both worlds, a simple to use platform, messaging ability, deposits and rewards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation></translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="4319"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LEGAL DISCLAIMER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nibble is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Nibble is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation></translation>
     </message>
     <message>
@@ -1144,8 +1145,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="5973"/>
-        <source>CRUMBS</source>
-        <translation>我的CRUMBS钱包</translation>
+        <source>NIBBLE</source>
+        <translation>我的NIBBLE钱包</translation>
     </message>
     <message>
         <location filename="src/gui/ui/overviewframe.ui" line="6009"/>
@@ -1254,8 +1255,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="src/UpdateManager.cpp" line="93"/>
-        <source>Crumbs Wallet Update</source>
-        <translation>Crumbs 钱包更新</translation>
+        <source>Nibble Wallet Update</source>
+        <translation>Nibble 钱包更新</translation>
     </message>
     <message>
         <location filename="src/UpdateManager.cpp" line="93"/>
@@ -2082,7 +2083,7 @@ Are you sure?</source>
     </message>
     <message>
         <location filename="src/gui/OverviewFrame.cpp" line="862"/>
-        <source>Failed to lookup Crumbs ID</source>
+        <source>Failed to lookup Nibble ID</source>
         <translation>搜索失败</translation>
     </message>
     <message>
@@ -2412,23 +2413,23 @@ Are you sure?</source>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="72"/>
         <location filename="src/gui/ui/welcomeframe.ui" line="243"/>
-        <source>WELCOME TO THE CRUMBS WALLET</source>
-        <translation>欢迎使用CRUMBS钱包</translation>
+        <source>WELCOME TO THE NIBBLE WALLET</source>
+        <translation>欢迎使用NIBBLE钱包</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="110"/>
-        <source>■  Crumbs is a decentralized reward system.</source>
-        <translation>Crumbs是一个分散的区块链银行.</translation>
+        <source>■  Nibble is a decentralized reward system.</source>
+        <translation>Nibble是一个分散的区块链银行.</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="133"/>
-        <source>■  The Crumbs Wallet is a free, open-source interface.</source>
-        <translation>Crumbs钱包是一个免费的开源界面</translation>
+        <source>■  The Nibble Wallet is a free, open-source interface.</source>
+        <translation>Nibble钱包是一个免费的开源界面</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="156"/>
-        <source>■  The wallet allows access to all Crumbs services.</source>
-        <translation>钱包允许访问所有Crumbs服务。</translation>
+        <source>■  The wallet allows access to all Nibble services.</source>
+        <translation>钱包允许访问所有Nibble服务。</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="179"/>
@@ -2460,12 +2461,12 @@ Are you sure?</source>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="358"/>
         <source>■  The Nibble Developers have no access to your password, your keys, </source>
-        <translation>■  Crumbs的开发人员无法访问您的密码，密钥，</translation>
+        <translation>■  Nibble的开发人员无法访问您的密码，密钥，</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="381"/>
-        <source>How does the Crumbs Wallet work?</source>
-        <translation>Crumbs钱包如何运作？</translation>
+        <source>How does the Nibble Wallet work?</source>
+        <translation>Nibble钱包如何运作？</translation>
     </message>
     <message>
         <location filename="src/gui/ui/welcomeframe.ui" line="447"/>
