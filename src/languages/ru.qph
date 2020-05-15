@@ -5,7 +5,7 @@
     <target>О %1</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Crumbs is part of The Nibble Network, with deposits and investments paying rewards, The Nibble Network enables untraceable and anonymous messaging, and a secure way to transfer funds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Nibble is a decentralized reward platform with encrypted messages and own privacy protected cryptocurrency. All your NBXC transactions and messages are anonymous. The Nibble Network provides an instant secure, untraceable and unlinkable way of encrypted communication - crypto messages.Nibble is open-source, always has been and always will be. This latest edition of Nibble, has been created from a merger of projects - Nibble Classic and Crumbs. Giving our users the best from both worlds, a simple to use platform, messaging ability, deposits and rewards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://conceal.network/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffa500;&quot;&gt;https://conceal.network/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -13,8 +13,8 @@
     <target>ЗАКРЫТЬ</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Кошелек Crumbs</target>
+    <source>The Nibble Wallet</source>
+    <target>Кошелек Nibble</target>
 </phrase>
 <phrase>
     <source>Select address</source>
@@ -353,7 +353,7 @@ p, li { white-space: pre-wrap; }
     <target>Правовое уведомление</target>
 </phrase>
 <phrase>
-    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crumbs is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Crumbs is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nibble is an open source experimental project, which means that there is no company behind it. This project is supported by the community, meaning there is no stable, full-time team and no physical headquarters from which the projects runs its operations. &lt;/p&gt;&lt;p&gt;Nibble is distributed in the hope that it will be useful to mankind, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/p&gt;&lt;p&gt;Copyright Notice &lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: &lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. &lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;p&gt;Copyright 2020 The Nibble Developers&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
     <target></target>
 </phrase>
 <phrase>
@@ -950,8 +950,8 @@ p, li { white-space: pre-wrap; }
     <target>Доступно к выводу</target>
 </phrase>
 <phrase>
-    <source>CRUMBS</source>
-    <target>МОЙ КОШЕЛЕК CRUMBS</target>
+    <source>Nibble</source>
+    <target>МОЙ КОШЕЛЕК NIBBLE</target>
 </phrase>
 <phrase>
     <source>currentWallet</source>
@@ -1042,8 +1042,8 @@ p, li { white-space: pre-wrap; }
     <target>ЗАГРУЗКА КОШЕЛЬКА</target>
 </phrase>
 <phrase>
-    <source>Crumbs Wallet Update</source>
-    <target>Обновить кошелек Crumbs</target>
+    <source>Nibble Wallet Update</source>
+    <target>Обновить кошелек Nibble</target>
 </phrase>
 <phrase>
     <source>There is an update to the wallet available.
@@ -1400,8 +1400,8 @@ p, li { white-space: pre-wrap; }
     <target>Сервер обновлений недоступен</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Кошелек Crumbs</target>
+    <source>The Nibble Wallet</source>
+    <target>Кошелек Nibble</target>
 </phrase>
 <phrase>
     <source>Invalid address</source>
@@ -1813,7 +1813,7 @@ Are you sure?</source>
     <target>СИНХРОНИЗАЦИЯ</target>
 </phrase>
 <phrase>
-    <source>About Crumbs</source>
+    <source>About Nibble</source>
     <target></target>
 </phrase>
 <phrase>
@@ -1913,7 +1913,7 @@ Are you sure?</source>
     <target>Мнемоническая фраза</target>
 </phrase>
 <phrase>
-    <source>Failed to lookup Crumbs ID</source>
+    <source>Failed to lookup Nibble ID</source>
     <target>Поиск не удался</target>
 </phrase>
 <phrase>
@@ -2073,28 +2073,28 @@ Are you sure?</source>
     <target>Добро пожаловать</target>
 </phrase>
 <phrase>
-    <source>WELCOME TO THE CRUMBS WALLET</source>
-    <target>Добро пожаловать в кошелек Crumbs</target>
+    <source>WELCOME TO THE NIBBLE WALLET</source>
+    <target>Добро пожаловать в кошелек Nibble</target>
 </phrase>
 <phrase>
-    <source>■  Crumbs is a decentralized reward system.</source>
-    <target>■  Crumbs - это децентрализованный блокчейн-банк.</target>
+    <source>■  Nibble is a decentralized reward system.</source>
+    <target>■  Nibble - это децентрализованный блокчейн-банк.</target>
 </phrase>
 <phrase>
-    <source>■  The Crumbs Wallet is a free, open-source interface.</source>
-    <target>■  Кошелек Crumbs - это бесплатный продукт с открытым кодом.</target>
+    <source>■  The Nibble Wallet is a free, open-source interface.</source>
+    <target>■  Кошелек Nibble - это бесплатный продукт с открытым кодом.</target>
 </phrase>
 <phrase>
-    <source>■  The wallet allows access to all crumbs services.</source>
-    <target>■  Наличие кошелька дает вам право доступа ко всем услугам Crumbs.</target>
+    <source>■  The wallet allows access to all nibble services.</source>
+    <target>■  Наличие кошелька дает вам право доступа ко всем услугам Nibble.</target>
 </phrase>
 <phrase>
     <source>■  You control the private keys to your funds.</source>
     <target>■  Вы контролируете приватные ключи, открывающие доступ к вашим средствам.</target>
 </phrase>
 <phrase>
-    <source>The Crumbs Wallet</source>
-    <target>Кошелек Crumbs</target>
+    <source>The Nibble Wallet</source>
+    <target>Кошелек Nibble</target>
 </phrase>
 <phrase>
     <source>NEXT</source>
@@ -2118,11 +2118,11 @@ Are you sure?</source>
 </phrase>
 <phrase>
     <source>■  The Nibble Developers have no access to your password, your keys, </source>
-    <target>■  У разработчиков Crumbs нет доступа к вашему паролю, вашим приватным ключам,</target>
+    <target>■  У разработчиков Nibble нет доступа к вашему паролю, вашим приватным ключам,</target>
 </phrase>
 <phrase>
-    <source>How does the Crumbs Wallet work?</source>
-    <target>Как работает кошелек Crumbs?</target>
+    <source>How does the Nibble Wallet work?</source>
+    <target>Как работает кошелек Nibble?</target>
 </phrase>
 <phrase>
     <source>■  NEVER share your seed, keys, or wallet file with anyone.</source>
