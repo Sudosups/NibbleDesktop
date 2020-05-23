@@ -320,7 +320,7 @@ void MainWindow::setRemoteWindowTitle()
     }
     else
     {
-      setWindowTitle(QString("%1 Wallet %2").arg(CurrencyAdapter::instance().getCurrencyDisplayName()).arg(Settings::instance().getVersion()));
+      setWindowTitle(QString("%1 Wallet %2 connected to local built-in node").arg(CurrencyAdapter::instance().getCurrencyDisplayName()).arg(Settings::instance().getVersion()));
     }
   }
 }
