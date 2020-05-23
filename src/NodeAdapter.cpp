@@ -154,11 +154,11 @@ bool NodeAdapter::init()
 
   /* Autoremote is a the remote node conection which retrieves a random for-fee remoten node
      from the node pool on the explorer. */
-  if (connection.compare("autoremote") == 0)
+ /* if (connection.compare("autoremote") == 0)
   {
     isAutoRemote = true;
     /* Pull a random node from the node pool list */
-    QNetworkAccessManager *nam = new QNetworkAccessManager(this);
+/*    QNetworkAccessManager *nam = new QNetworkAccessManager(this);
     connect(nam, &QNetworkAccessManager::finished, this, &NodeAdapter::downloadFinished);
     const QUrl url = QUrl::fromUserInput("http://walletapi.conceal.network/pool/random?hasFeeAddr=true&isReachable=true&isSynced=true");
     QNetworkRequest request(url);
