@@ -2681,7 +2681,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">color: #aaa; border: none; font-size: 14px; font-family: 'Poppins';</string>
         </property>
         <property name="text">
-         <string>Automatic Remote Node</string>
+         <string>Enter IP:Port or URL --></string>
         </property>
         <property name="checked">
          <bool>false</bool>
@@ -3016,7 +3016,7 @@ QPushButton#m_rescanButton:hover {color: green; border: 1px solid green; font-si
         </property>
         <property name="styleSheet">
          <string notr="true">color: #ccc; 
-font-size: 14px;
+font-size: 12px;
 font-family: 'Poppins'; border: 0px;</string>
         </property>
         <property name="text">
