@@ -1711,7 +1711,7 @@ void OverviewFrame::discordClicked()
 
 void OverviewFrame::twitterClicked()
 {
-  QDesktopServices::openUrl(QUrl("https://twitter.com/NibbleClassic", QUrl::TolerantMode));
+  QDesktopServices::openUrl(QUrl("https://twitter.com/NibbleNetwork", QUrl::TolerantMode));
 }
 
 void OverviewFrame::telegramClicked()
