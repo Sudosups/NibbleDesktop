@@ -20,7 +20,7 @@ Get your nibble on!
 - Web: https://nibble-nibble.com
 - GitHub: https://github.com/Nibble-Network
 - Discord: https://discordapp.com/invite/rqYhADW
-- Twitter: @NibbleClassic
+- Twitter: @NibbleNetwork
 
 
 ## Compiling Nibble from source
