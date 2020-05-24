@@ -3,6 +3,8 @@
 # Nibble Desktop (GUI Wallet)
 Latest Release: v2.0
 
+![image](https://i.imgur.com/mhh1gL8.gif)
+
 Maintained by The Nibble Developers.
 
 ## Information
