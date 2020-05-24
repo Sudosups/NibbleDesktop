@@ -2,9 +2,9 @@
 
 # Nibble Desktop (GUI Wallet)
 Latest Release: v2.0
-
-![image](https://i.imgur.com/mhh1gL8.gif)
-
+<p align="center">
+<img width="600" height="342" src="https://i.imgur.com/mhh1gL8.gif">
+</p>
 Maintained by The Nibble Developers.
 
 ## Information
