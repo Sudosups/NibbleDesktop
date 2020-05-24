@@ -2625,7 +2625,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">color: #aaa; border: none; font-size: 14px; font-family: 'Poppins';</string>
         </property>
         <property name="text">
-         <string>Custom Remote Node</string>
+         <string>Public Node (may incur additional fees)</string>
         </property>
         <property name="checked">
          <bool>false</bool>
@@ -7309,4 +7309,3 @@ text-align: left;</string>
   <buttongroup name="buttonGroup"/>
  </buttongroups>
 </ui>
-
