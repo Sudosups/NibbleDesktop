@@ -2625,7 +2625,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">color: #aaa; border: none; font-size: 14px; font-family: 'Poppins';</string>
         </property>
         <property name="text">
-         <string>Custom Remote Node</string>
+         <string>Public Node (may incur additional fees)</string>
         </property>
         <property name="checked">
          <bool>false</bool>
@@ -2662,34 +2662,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">buttonGroup_3</string>
         </attribute>
        </widget>
-       <widget class="QRadioButton" name="radioButton_3">
-        <property name="geometry">
-         <rect>
-          <x>190</x>
-          <y>80</y>
-          <width>211</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Poppins</family>
-          <pointsize>-1</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: #aaa; border: none; font-size: 14px; font-family: 'Poppins';</string>
-        </property>
-        <property name="text">
-         <string>Enter IP:Port or URL --></string>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-        <attribute name="buttonGroup">
-         <string notr="true">buttonGroup_3</string>
-        </attribute>
-       </widget>
+
        <widget class="QLineEdit" name="m_hostEdit">
         <property name="geometry">
          <rect>
@@ -3165,40 +3138,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">buttonGroup_2</string>
         </attribute>
        </widget>
-       <widget class="QRadioButton" name="m_chinese">
-        <property name="geometry">
-         <rect>
-          <x>460</x>
-          <y>50</y>
-          <width>121</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Poppins</family>
-          <pointsize>-1</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: #fff; 
-font-size: 14px;
-font-family: 'Poppins'; border: 0px;</string>
-        </property>
-        <property name="text">
-         <string>Chinese</string>
-        </property>
-        <property name="icon">
-         <iconset resource="../../resources.qrc">
-          <normaloff>:/images/images/cn.png</normaloff>:/images/images/cn.png</iconset>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-        <attribute name="buttonGroup">
-         <string notr="true">buttonGroup</string>
-        </attribute>
-       </widget>
+
        <widget class="QRadioButton" name="m_english">
         <property name="geometry">
          <rect>
@@ -3233,74 +3173,7 @@ font-family: 'Poppins'; border: 0px;</string>
          <string notr="true">buttonGroup</string>
         </attribute>
        </widget>
-       <widget class="QRadioButton" name="m_russian">
-        <property name="geometry">
-         <rect>
-          <x>590</x>
-          <y>50</y>
-          <width>121</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Poppins</family>
-          <pointsize>-1</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: #fff; 
-font-size: 14px;
-font-family: 'Poppins'; border: 0px;</string>
-        </property>
-        <property name="text">
-         <string>Russian</string>
-        </property>
-        <property name="icon">
-         <iconset resource="../../resources.qrc">
-          <normaloff>:/images/images/ru.png</normaloff>:/images/images/ru.png</iconset>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-        <attribute name="buttonGroup">
-         <string notr="true">buttonGroup</string>
-        </attribute>
-       </widget>
-       <widget class="QRadioButton" name="m_turkish">
-        <property name="geometry">
-         <rect>
-          <x>330</x>
-          <y>50</y>
-          <width>121</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Poppins</family>
-          <pointsize>-1</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: #fff; 
-font-size: 14px;
-font-family: 'Poppins'; border: 0px;</string>
-        </property>
-        <property name="text">
-         <string>Turkish</string>
-        </property>
-        <property name="icon">
-         <iconset resource="../../resources.qrc">
-          <normaloff>:/images/images/tr.png</normaloff>:/images/images/tr.png</iconset>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-        <attribute name="buttonGroup">
-         <string notr="true">buttonGroup</string>
-        </attribute>
-       </widget>
+
        <widget class="QPushButton" name="m_saveLanguageButton">
         <property name="geometry">
          <rect>
