@@ -250,23 +250,7 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
 
 
   /* Get current language */
-  QString language = Settings::instance().getLanguage();
-  if (language.compare("tr") == 0)
-  {
-    m_ui->m_turkish->setChecked(true);
-  }
-  else if (language.compare("ru") == 0)
-  {
-    m_ui->m_russian->setChecked(true);
-  }
-  else if (language.compare("cn") == 0)
-  {
-    m_ui->m_chinese->setChecked(true);
-  }
-  else
-  {
-    m_ui->m_english->setChecked(true);
-  }
+ 
 
   /* Get current currency */
   QString currency = Settings::instance().getCurrentCurrency();
@@ -290,10 +274,7 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
     m_ui->radioButton->setChecked(true);
   }
 
-  if (connection.compare("autoremote") == 0)
-  {
-    m_ui->radioButton_3->setChecked(true);
-  }
+
 
   /* It is an embedded node, so let only check that */
   else if (connection.compare("embedded") == 0)
@@ -1460,24 +1441,6 @@ void OverviewFrame::autoOptimizeClicked()
 
 void OverviewFrame::saveLanguageCurrencyClicked()
 {
-  QString language;
-  if (m_ui->m_russian->isChecked())
-  {
-    language = "ru";
-  }
-  else if (m_ui->m_turkish->isChecked())
-  {
-    language = "tr";
-  }
-  else if (m_ui->m_chinese->isChecked())
-  {
-    language = "cn";
-  }
-  else
-  {
-    language = "en";
-  }
-  Settings::instance().setLanguage(language);
 
   QString currency;
   if (m_ui->m_eur->isChecked())
@@ -1506,10 +1469,7 @@ void OverviewFrame::saveConnectionClicked()
   else if (m_ui->radioButton_2->isChecked())
   {
     connectionMode = "embedded";
-  }
-  else if (m_ui->radioButton_3->isChecked())
-  {
-    connectionMode = "autoremote";
+
   }
   Settings::instance().setConnection(connectionMode);
 
@@ -1520,10 +1480,7 @@ void OverviewFrame::saveConnectionClicked()
   {
     remoteHost = m_ui->m_hostEdit->text();
   }
-  if (m_ui->radioButton_3->isChecked())
-  {
-    remoteHost = m_ui->m_hostEdit->text();
-  }
+
   Settings::instance().setCurrentRemoteNode(remoteHost);
 
   QMessageBox::information(this,
